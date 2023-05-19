@@ -8,14 +8,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Dach
   - Water
   - UI
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - "\u015Aciana"
+  - "T\u0142o"
+  - Player
+  - Kolce
   - 
   - 
   - 
@@ -40,4 +40,31 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: "T\u0142o"
+    uniqueID: 808675373
+    locked: 0
+  - name: "\u015AcianaWew"
+    uniqueID: 726962253
+    locked: 0
+  - name: "Pod\u0142ogaBruk"
+    uniqueID: 2182400981
+    locked: 0
+  - name: Lampa
+    uniqueID: 2299325439
+    locked: 0
+  - name: "Pod\u0142oga"
+    uniqueID: 4043555739
+    locked: 0
+  - name: Player
+    uniqueID: 1283800565
+    locked: 0
+  - name: Kolce
+    uniqueID: 1801080755
+    locked: 0
+  - name: "\u015Aciana"
+    uniqueID: 4217051679
+    locked: 0
+  - name: Dach
+    uniqueID: 1579965201
     locked: 0
