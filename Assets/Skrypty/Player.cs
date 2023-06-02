@@ -12,6 +12,15 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+	private Vector3 respawnPoint;
+	
+
+	void Start()
+	{
+		respawnPoint = transform.position;
+	}
+
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -49,4 +58,12 @@ public class Player : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if(collision.tag == "Enemy")
+		{
+			transform.position = respawnPoint;	
+		}
+	}
 }
