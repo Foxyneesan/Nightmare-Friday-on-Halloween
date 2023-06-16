@@ -66,14 +66,17 @@ TagManager:
   - name: Window
     uniqueID: 2627385991
     locked: 0
-  - name: Player
-    uniqueID: 1283800565
+  - name: "\u015Aciana"
+    uniqueID: 4217051679
     locked: 0
   - name: Kolce
     uniqueID: 1801080755
     locked: 0
-  - name: "\u015Aciana"
-    uniqueID: 4217051679
+  - name: Platforma
+    uniqueID: 2807453493
+    locked: 0
+  - name: Player
+    uniqueID: 1283800565
     locked: 0
   - name: Dach
     uniqueID: 1579965201

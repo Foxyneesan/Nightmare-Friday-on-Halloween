@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-
-
-   
     public List<Transform> points;
-    
+
     public int nextID=0;
-   
+
     int idChangeValue = 1;
-    //Speed of movement or flying
-    public float speed = 2;
-
-
+    
+    public float moveSpeed = 1;
 
 
     private void Update()
@@ -26,29 +21,27 @@ public class EnemyAI : MonoBehaviour
 
     void MoveToNextPoint()
     {
-        
+
         Transform goalPoint = points[nextID];
-       
+
         if (goalPoint.transform.position.x > transform.position.x)
             transform.localScale = new Vector3(-1, 1, 1);
         else
             transform.localScale = new Vector3(1, 1, 1);
-        
-        transform.position = Vector2.MoveTowards(transform.position,goalPoint.position,speed*Time.deltaTime);
-        
-        if(Vector2.Distance(transform.position, goalPoint.position)<0.2f)
+ 
+        transform.position = Vector2.MoveTowards(transform.position, goalPoint.position, moveSpeed * Time.deltaTime);
+
+        if(Vector2.Distance(transform.position, goalPoint.position) < 0.2f)
         {
-            
+
             if (nextID == points.Count - 1)
                 idChangeValue = -1;
-            
+
             if (nextID == 0)
                 idChangeValue = 1;
-            
+
             nextID += idChangeValue;
         }
     }
-
-  
-
 }
+
