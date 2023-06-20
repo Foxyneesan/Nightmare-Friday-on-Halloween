@@ -17,17 +17,25 @@ public class EnemyMovement : MonoBehaviour
 
         if (isChasing)
         {
+		moveSpeed = 4;
             
             if (transform.position.x > playerTransform.position.x)
             {
+		transform.localScale = new Vector3(1,1,1);
                 transform.position += Vector3.left * moveSpeed * Time.deltaTime;
-                transform.localScale = new Vector3(-1,1,1);
+                
             }
             if (transform.position.x < playerTransform.position.x)
             {
+		transform.localScale = new Vector3(-1,1,1);
                 transform.position += Vector3.right * moveSpeed * Time.deltaTime;
-                transform.localScale = new Vector3(1,1,1);
+                
             }
+		 if(Vector2.Distance(transform.position, playerTransform.position) > 6)
+		{ 
+		isChasing = false;
+		moveSpeed = 2;
+		}
 
         }
         else
@@ -35,9 +43,12 @@ public class EnemyMovement : MonoBehaviour
 
             if (Vector2.Distance(transform.position, playerTransform.position) < chaseDistance)
             {
-                
                 isChasing = true;
             }
+	   
+
+		
+		
             if (patrolDestination == 0)
             {
                 transform.position = Vector2.MoveTowards(transform.position, patrolPoints[0].position, moveSpeed * Time.deltaTime);
@@ -58,12 +69,12 @@ public class EnemyMovement : MonoBehaviour
                     
                 }
 
-        }
+       	    }
 
 
 
 
-        }
+          }
     }
     
 }
