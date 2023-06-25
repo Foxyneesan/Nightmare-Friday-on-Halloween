@@ -26,7 +26,10 @@ public class PlayerController : MonoBehaviour
     public Slider progressBar; // Slider lub Image reprezentuj¹cy pasek postêpu
     private int score = 0;
     private int maxScore = 10; // Maksymalna wartoœæ punktów do zebrania
+    private int coinsCollected = 0; // Liczba zebranych monet
 
+    [SerializeField]
+    public string nextLevelScene; // Nazwa sceny dla nastêpnego poziomu
 
     /*    public HealthBar healthBar;
 */
@@ -109,7 +112,22 @@ public class PlayerController : MonoBehaviour
         score++; // Naliczanie punktacji
         progressBar.value = (float)score / maxScore; // Aktualizacja wartoœci paska postêpu
 
+        coinsCollected++; // Zwiêkszanie liczby zebranych monet
+
         Destroy(coin); // Usuniêcie zebranej monety
+
+        if (coinsCollected >= 10) // Jeœli zebrano 10 monet
+        {
+            LoadNextLevel();
+        }
+    }
+
+    private void LoadNextLevel()
+    {
+        if (!string.IsNullOrEmpty(nextLevelScene))
+        {
+            SceneManager.LoadScene(nextLevelScene);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
