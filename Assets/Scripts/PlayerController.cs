@@ -1,48 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
-   /* public float jumpSpeed = 8f;*/
     private float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
+    private bool isTouchingGround;
 
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask groundLayer;
-    private bool isTouchingGround;
 
-/*    private Animator playerAnimation;*/
+    private bool isOnMovingPlatform = false;
+    private Transform currentPlatform = null;
 
-    private Vector3 respawnPoint;
-    /*    public GameObject fallDetector;
-
-        public Text scoreText;*/
-    public Slider progressBar; // Slider lub Image reprezentuj¹cy pasek postêpu
-    private int score = 0;
-    private int maxScore = 10; // Maksymalna wartoœæ punktów do zebrania
-    private int coinsCollected = 0; // Liczba zebranych monet
-
-    [SerializeField]
-    public string nextLevelScene; // Nazwa sceny dla nastêpnego poziomu
-
-    /*    public HealthBar healthBar;
-*/
-    // Start is called before the first frame update
     void Start()
     {
         player = GetComponent<Rigidbody2D>();
-/*        playerAnimation = GetComponent<Animator>();*/
-        respawnPoint = transform.position;
-/*        scoreText.text = "Score: " + Scoring.totalScore;*/
     }
 
-    // Update is called once per frame
     void Update()
     {
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
@@ -67,75 +46,25 @@ public class PlayerController : MonoBehaviour
         {
             player.velocity = new Vector2(player.velocity.x, jumpingPower);
         }
-
-        /*        playerAnimation.SetFloat("Speed", Mathf.Abs(player.velocity.x));
-                playerAnimation.SetBool("OnGround", isTouchingGround);
-        */
-        /*        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);*/
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        /*        if (collision.tag == "FallDetector")
-                {
-                    transform.position = respawnPoint;
-                }*/
-        if (collision.tag == "Checkpoint")
+        if (collision.CompareTag("Platform"))
         {
-            respawnPoint = transform.position;
-        }
-        else if (collision.tag == "NextLevel")
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            // Can also use SceneManager.LoadScene(1); to load a specific scene
-            respawnPoint = transform.position;
-        }
-        else if (collision.tag == "PreviousLevel")
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            respawnPoint = transform.position;
-        }
-        /*        else if (collision.tag == "Crystal")
-                {
-                    Scoring.totalScore += 1;
-                    scoreText.text = "Score: " + Scoring.totalScore;
-                    collision.gameObject.SetActive(false);
-                }*/
-        if (collision.CompareTag("Coin"))
-        {
-            CollectCoin(collision.gameObject);
+            isOnMovingPlatform = true;
+            currentPlatform = collision.transform.parent;
+            transform.SetParent(currentPlatform);
         }
     }
 
-    private void CollectCoin(GameObject coin)
+    void OnTriggerExit2D(Collider2D collision)
     {
-        score++; // Naliczanie punktacji
-        progressBar.value = (float)score / maxScore; // Aktualizacja wartoœci paska postêpu
-
-        coinsCollected++; // Zwiêkszanie liczby zebranych monet
-
-        Destroy(coin); // Usuniêcie zebranej monety
-
-        if (coinsCollected >= 10) // Jeœli zebrano 10 monet
+        if (collision.CompareTag("Platform"))
         {
-            LoadNextLevel();
+            isOnMovingPlatform = false;
+            currentPlatform = null;
+            transform.SetParent(null);
         }
     }
-
-    private void LoadNextLevel()
-    {
-        if (!string.IsNullOrEmpty(nextLevelScene))
-        {
-            SceneManager.LoadScene(nextLevelScene);
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.tag == "Spike")
-        {
-            /*           healthBar.Damage(0.002f);*/
-        }
-    }
-
 }

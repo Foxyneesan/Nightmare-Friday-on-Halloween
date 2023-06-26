@@ -8,26 +8,36 @@ public class MovingPlatform : MonoBehaviour
     public Transform leftBound;
     public Transform rightBound;
 
-    private Transform platformTransform;
     private bool movingRight = true;
-
-    private void Start()
-    {
-        platformTransform = transform;
-    }
 
     private void Update()
     {
         float step = speed * Time.deltaTime;
 
         if (movingRight)
-            platformTransform.position = Vector3.MoveTowards(platformTransform.position, rightBound.position, step);
+            transform.position = Vector2.MoveTowards(transform.position, rightBound.position, step);
         else
-            platformTransform.position = Vector3.MoveTowards(platformTransform.position, leftBound.position, step);
+            transform.position = Vector2.MoveTowards(transform.position, leftBound.position, step);
 
-        if (platformTransform.position == rightBound.position)
+        if (transform.position == rightBound.position)
             movingRight = false;
-        else if (platformTransform.position == leftBound.position)
+        else if (transform.position == leftBound.position)
             movingRight = true;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.collider.transform.SetParent(transform);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.collider.transform.SetParent(null);
+        }
     }
 }
