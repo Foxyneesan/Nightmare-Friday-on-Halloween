@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coin
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -11,7 +13,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -40,4 +42,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: tlotlo
+    uniqueID: 1288808981
+    locked: 0
+  - name: tlo
+    uniqueID: 1336666733
+    locked: 0
+  - name: backback
+    uniqueID: 1139785789
+    locked: 0
+  - name: back
+    uniqueID: 2292517671
+    locked: 0
+  - name: half-back
+    uniqueID: 1362455395
+    locked: 0
+  - name: half-front
+    uniqueID: 2151162007
+    locked: 0
+  - name: front
+    uniqueID: 3466598409
+    locked: 0
+  - name: frontfront
+    uniqueID: 4238119955
     locked: 0
