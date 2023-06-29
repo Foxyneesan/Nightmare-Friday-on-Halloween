@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 11608229}
   - component: {fileID: 11608228}
   - component: {fileID: 11608230}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (6)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1391,11 +1391,10 @@ GameObject:
   - component: {fileID: 15882298}
   - component: {fileID: 15882300}
   - component: {fileID: 15882299}
-  - component: {fileID: 15882301}
   - component: {fileID: 15882302}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma3.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1426,7 +1425,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.3624769}
   m_SpriteTilingProperty:
@@ -1493,25 +1492,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &15882301
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15882297}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!95 &15882302
 Animator:
   serializedVersion: 5
@@ -1654,7 +1634,7 @@ GameObject:
   - component: {fileID: 16456029}
   - component: {fileID: 16456031}
   - component: {fileID: 16456030}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (3)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1766,9 +1746,9 @@ GameObject:
   - component: {fileID: 17710112}
   - component: {fileID: 17710111}
   - component: {fileID: 17710113}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (97)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2344,7 +2324,7 @@ GameObject:
   - component: {fileID: 25624318}
   - component: {fileID: 25624320}
   - component: {fileID: 25624319}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (47)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2455,7 +2435,7 @@ GameObject:
   - component: {fileID: 26507985}
   - component: {fileID: 26507987}
   - component: {fileID: 26507986}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra13"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2788,9 +2768,9 @@ GameObject:
   - component: {fileID: 28995067}
   - component: {fileID: 28995069}
   - component: {fileID: 28995068}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (104)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3380,7 +3360,7 @@ GameObject:
   - component: {fileID: 42123333}
   - component: {fileID: 42123332}
   - component: {fileID: 42123334}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (8)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3881,7 +3861,7 @@ GameObject:
   - component: {fileID: 47977707}
   - component: {fileID: 47977706}
   - component: {fileID: 47977708}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (74)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3992,9 +3972,9 @@ GameObject:
   - component: {fileID: 50182399}
   - component: {fileID: 50182401}
   - component: {fileID: 50182400}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-8 (2)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4103,7 +4083,7 @@ GameObject:
   - component: {fileID: 57125685}
   - component: {fileID: 57125684}
   - component: {fileID: 57125686}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (44)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5267,7 +5247,7 @@ GameObject:
   - component: {fileID: 77231860}
   - component: {fileID: 77231859}
   - component: {fileID: 77231861}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5712,7 +5692,7 @@ GameObject:
   - component: {fileID: 82173564}
   - component: {fileID: 82173563}
   - component: {fileID: 82173562}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (78)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5953,7 +5933,7 @@ GameObject:
   - component: {fileID: 82654059}
   - component: {fileID: 82654058}
   - component: {fileID: 82654060}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (52)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6344,9 +6324,9 @@ GameObject:
   - component: {fileID: 88174765}
   - component: {fileID: 88174767}
   - component: {fileID: 88174766}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma4.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7045,9 +7025,9 @@ GameObject:
   - component: {fileID: 98009083}
   - component: {fileID: 98009085}
   - component: {fileID: 98009084}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (102)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7156,7 +7136,7 @@ GameObject:
   - component: {fileID: 98807065}
   - component: {fileID: 98807067}
   - component: {fileID: 98807066}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (33)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8006,9 +7986,9 @@ GameObject:
   - component: {fileID: 111978042}
   - component: {fileID: 111978044}
   - component: {fileID: 111978043}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (99)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8676,7 +8656,7 @@ GameObject:
   - component: {fileID: 125727329}
   - component: {fileID: 125727331}
   - component: {fileID: 125727332}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (48)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9254,11 +9234,10 @@ GameObject:
   - component: {fileID: 140407295}
   - component: {fileID: 140407297}
   - component: {fileID: 140407296}
-  - component: {fileID: 140407298}
   - component: {fileID: 140407299}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9289,7 +9268,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.3647055}
   m_SpriteTilingProperty:
@@ -9356,25 +9335,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &140407298
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140407294}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!95 &140407299
 Animator:
   serializedVersion: 5
@@ -9896,7 +9856,7 @@ GameObject:
   - component: {fileID: 152894940}
   - component: {fileID: 152894943}
   - component: {fileID: 152894942}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (83)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10007,7 +9967,7 @@ GameObject:
   - component: {fileID: 152938573}
   - component: {fileID: 152938572}
   - component: {fileID: 152938574}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (64)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10314,7 +10274,7 @@ GameObject:
   - component: {fileID: 154168604}
   - component: {fileID: 154168603}
   - component: {fileID: 154168602}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (85)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10903,9 +10863,9 @@ GameObject:
   - component: {fileID: 162393731}
   - component: {fileID: 162393733}
   - component: {fileID: 162393732}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (83)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11209,9 +11169,9 @@ GameObject:
   - component: {fileID: 165049953}
   - component: {fileID: 165049955}
   - component: {fileID: 165049954}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (78)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11320,9 +11280,9 @@ GameObject:
   - component: {fileID: 165889597}
   - component: {fileID: 165889596}
   - component: {fileID: 165889598}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-8"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11999,9 +11959,9 @@ GameObject:
   - component: {fileID: 173065362}
   - component: {fileID: 173065361}
   - component: {fileID: 173065363}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12881,9 +12841,9 @@ GameObject:
   - component: {fileID: 186631638}
   - component: {fileID: 186631637}
   - component: {fileID: 186631639}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13167,7 +13127,7 @@ GameObject:
   - component: {fileID: 191141253}
   - component: {fileID: 191141255}
   - component: {fileID: 191141254}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (30)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -13278,7 +13238,7 @@ GameObject:
   - component: {fileID: 193086452}
   - component: {fileID: 193086454}
   - component: {fileID: 193086453}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (36)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -14077,9 +14037,9 @@ GameObject:
   - component: {fileID: 214293035}
   - component: {fileID: 214293034}
   - component: {fileID: 214293036}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (81)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14403,9 +14363,9 @@ GameObject:
   - component: {fileID: 217735229}
   - component: {fileID: 217735231}
   - component: {fileID: 217735230}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (105)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14710,9 +14670,9 @@ GameObject:
   - component: {fileID: 226604105}
   - component: {fileID: 226604104}
   - component: {fileID: 226604103}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (109)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14841,7 +14801,7 @@ GameObject:
   - component: {fileID: 226860563}
   - component: {fileID: 226860562}
   - component: {fileID: 226860564}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (29)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -15288,9 +15248,9 @@ GameObject:
   - component: {fileID: 236900101}
   - component: {fileID: 236900103}
   - component: {fileID: 236900102}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma6.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15957,7 +15917,7 @@ GameObject:
   - component: {fileID: 247718164}
   - component: {fileID: 247718163}
   - component: {fileID: 247718165}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (20)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -16299,7 +16259,7 @@ GameObject:
   - component: {fileID: 253252234}
   - component: {fileID: 253252233}
   - component: {fileID: 253252235}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (17)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -16914,7 +16874,7 @@ GameObject:
   - component: {fileID: 260155314}
   - component: {fileID: 260155313}
   - component: {fileID: 260155315}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (73)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -17968,7 +17928,7 @@ GameObject:
   - component: {fileID: 280917943}
   - component: {fileID: 280917945}
   - component: {fileID: 280917944}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (42)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -18442,7 +18402,7 @@ GameObject:
   - component: {fileID: 285198981}
   - component: {fileID: 285198983}
   - component: {fileID: 285198982}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (50)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -18554,7 +18514,7 @@ GameObject:
   - component: {fileID: 285700787}
   - component: {fileID: 285700789}
   - component: {fileID: 285700790}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (12)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -19198,7 +19158,7 @@ GameObject:
   - component: {fileID: 289747153}
   - component: {fileID: 289747152}
   - component: {fileID: 289747154}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (21)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -19895,9 +19855,9 @@ GameObject:
   - component: {fileID: 298213524}
   - component: {fileID: 298213523}
   - component: {fileID: 298213526}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-23"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20595,7 +20555,7 @@ GameObject:
   - component: {fileID: 311753105}
   - component: {fileID: 311753104}
   - component: {fileID: 311753106}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (10)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -21123,7 +21083,7 @@ GameObject:
   - component: {fileID: 320435203}
   - component: {fileID: 320435206}
   - component: {fileID: 320435205}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (79)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -21345,7 +21305,7 @@ GameObject:
   - component: {fileID: 331923770}
   - component: {fileID: 331923769}
   - component: {fileID: 331923771}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (23)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -21540,7 +21500,7 @@ GameObject:
   - component: {fileID: 332583775}
   - component: {fileID: 332583777}
   - component: {fileID: 332583776}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra7"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -21762,7 +21722,7 @@ GameObject:
   - component: {fileID: 334979742}
   - component: {fileID: 334979744}
   - component: {fileID: 334979743}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (29)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -21874,9 +21834,9 @@ GameObject:
   - component: {fileID: 335201165}
   - component: {fileID: 335201164}
   - component: {fileID: 335201166}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22411,9 +22371,9 @@ GameObject:
   - component: {fileID: 341709221}
   - component: {fileID: 341709220}
   - component: {fileID: 341709222}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-4"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22633,9 +22593,9 @@ GameObject:
   - component: {fileID: 344311443}
   - component: {fileID: 344311445}
   - component: {fileID: 344311444}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-19 (2)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23582,9 +23542,9 @@ GameObject:
   - component: {fileID: 359811254}
   - component: {fileID: 359811253}
   - component: {fileID: 359811252}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-27"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25532,7 +25492,7 @@ GameObject:
   - component: {fileID: 411320853}
   - component: {fileID: 411320852}
   - component: {fileID: 411320854}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (13)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -26083,9 +26043,9 @@ GameObject:
   - component: {fileID: 425621492}
   - component: {fileID: 425621491}
   - component: {fileID: 425621490}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (114)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26467,7 +26427,7 @@ GameObject:
   - component: {fileID: 436255445}
   - component: {fileID: 436255447}
   - component: {fileID: 436255446}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (49)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -26857,7 +26817,7 @@ GameObject:
   - component: {fileID: 447307972}
   - component: {fileID: 447307971}
   - component: {fileID: 447307973}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (72)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -26969,7 +26929,7 @@ GameObject:
   - component: {fileID: 447363260}
   - component: {fileID: 447363259}
   - component: {fileID: 447363258}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (80)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -27797,9 +27757,9 @@ GameObject:
   - component: {fileID: 461847696}
   - component: {fileID: 461847695}
   - component: {fileID: 461847694}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-20"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28115,9 +28075,9 @@ GameObject:
   - component: {fileID: 466721113}
   - component: {fileID: 466721112}
   - component: {fileID: 466721114}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma3.4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28369,9 +28329,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467568501}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06, y: -1.41, z: 5.241233}
-  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.06, y: -1.47, z: 5.241233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 940299128}
   m_RootOrder: 0
@@ -28666,7 +28626,7 @@ GameObject:
   - component: {fileID: 475520295}
   - component: {fileID: 475520298}
   - component: {fileID: 475520297}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-6 (1)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -29362,7 +29322,7 @@ GameObject:
   - component: {fileID: 484961165}
   - component: {fileID: 484961167}
   - component: {fileID: 484961166}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (32)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -29584,9 +29544,9 @@ GameObject:
   - component: {fileID: 490989513}
   - component: {fileID: 490989515}
   - component: {fileID: 490989514}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (88)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30086,9 +30046,9 @@ GameObject:
   - component: {fileID: 499552640}
   - component: {fileID: 499552639}
   - component: {fileID: 499552641}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30411,9 +30371,9 @@ GameObject:
   - component: {fileID: 506194692}
   - component: {fileID: 506194691}
   - component: {fileID: 506194690}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-28"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30522,7 +30482,7 @@ GameObject:
   - component: {fileID: 507705610}
   - component: {fileID: 507705609}
   - component: {fileID: 507705611}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (16)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -30633,7 +30593,7 @@ GameObject:
   - component: {fileID: 508533346}
   - component: {fileID: 508533348}
   - component: {fileID: 508533347}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (51)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -31023,7 +30983,7 @@ GameObject:
   - component: {fileID: 519226891}
   - component: {fileID: 519226890}
   - component: {fileID: 519226892}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (24)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -31302,9 +31262,9 @@ GameObject:
   - component: {fileID: 524484190}
   - component: {fileID: 524484189}
   - component: {fileID: 524484188}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-13"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31777,9 +31737,9 @@ GameObject:
   - component: {fileID: 530355389}
   - component: {fileID: 530355388}
   - component: {fileID: 530355391}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-11"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31942,7 +31902,7 @@ GameObject:
   - component: {fileID: 535493330}
   - component: {fileID: 535493332}
   - component: {fileID: 535493333}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (37)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -32267,7 +32227,7 @@ GameObject:
   - component: {fileID: 539403115}
   - component: {fileID: 539403114}
   - component: {fileID: 539403116}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (76)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -32378,7 +32338,7 @@ GameObject:
   - component: {fileID: 539693735}
   - component: {fileID: 539693734}
   - component: {fileID: 539693736}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (63)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -32573,9 +32533,9 @@ GameObject:
   - component: {fileID: 541228838}
   - component: {fileID: 541228840}
   - component: {fileID: 541228839}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (82)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33158,9 +33118,9 @@ GameObject:
   - component: {fileID: 549635430}
   - component: {fileID: 549635432}
   - component: {fileID: 549635431}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (107)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33464,7 +33424,7 @@ GameObject:
   - component: {fileID: 556921644}
   - component: {fileID: 556921643}
   - component: {fileID: 556921645}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (47)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -34106,7 +34066,7 @@ GameObject:
   - component: {fileID: 570161468}
   - component: {fileID: 570161467}
   - component: {fileID: 570161469}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (39)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -35644,9 +35604,9 @@ GameObject:
   - component: {fileID: 594292110}
   - component: {fileID: 594292109}
   - component: {fileID: 594292111}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma3.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37283,9 +37243,9 @@ GameObject:
   - component: {fileID: 633671945}
   - component: {fileID: 633671947}
   - component: {fileID: 633671946}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (108)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37898,7 +37858,7 @@ GameObject:
   - component: {fileID: 647007474}
   - component: {fileID: 647007473}
   - component: {fileID: 647007475}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (20)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -38093,7 +38053,7 @@ GameObject:
   - component: {fileID: 649189141}
   - component: {fileID: 649189143}
   - component: {fileID: 649189142}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (35)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -38204,9 +38164,9 @@ GameObject:
   - component: {fileID: 649559786}
   - component: {fileID: 649559788}
   - component: {fileID: 649559787}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-7 (1)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39377,9 +39337,9 @@ GameObject:
   - component: {fileID: 673843067}
   - component: {fileID: 673843069}
   - component: {fileID: 673843068}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (87)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39488,7 +39448,7 @@ GameObject:
   - component: {fileID: 674931990}
   - component: {fileID: 674931989}
   - component: {fileID: 674931991}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (9)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -39909,7 +39869,7 @@ GameObject:
   - component: {fileID: 678428817}
   - component: {fileID: 678428816}
   - component: {fileID: 678428818}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (38)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -40995,7 +40955,7 @@ GameObject:
   - component: {fileID: 697627986}
   - component: {fileID: 697627988}
   - component: {fileID: 697627987}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (54)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -41106,7 +41066,7 @@ GameObject:
   - component: {fileID: 698329635}
   - component: {fileID: 698329634}
   - component: {fileID: 698329636}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (61)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -41217,9 +41177,9 @@ GameObject:
   - component: {fileID: 699307795}
   - component: {fileID: 699307797}
   - component: {fileID: 699307796}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (89)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41913,7 +41873,7 @@ GameObject:
   - component: {fileID: 707411858}
   - component: {fileID: 707411860}
   - component: {fileID: 707411859}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (28)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -43140,9 +43100,9 @@ GameObject:
   - component: {fileID: 730424221}
   - component: {fileID: 730424223}
   - component: {fileID: 730424222}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (112)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43568,7 +43528,7 @@ GameObject:
   - component: {fileID: 735083840}
   - component: {fileID: 735083842}
   - component: {fileID: 735083841}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-9"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -44705,9 +44665,9 @@ GameObject:
   - component: {fileID: 754181232}
   - component: {fileID: 754181231}
   - component: {fileID: 754181233}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45004,7 +44964,7 @@ GameObject:
   - component: {fileID: 761372888}
   - component: {fileID: 761372887}
   - component: {fileID: 761372889}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (43)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -45336,7 +45296,7 @@ GameObject:
   - component: {fileID: 764361934}
   - component: {fileID: 764361933}
   - component: {fileID: 764361935}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (33)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -45532,9 +45492,9 @@ GameObject:
   - component: {fileID: 765914246}
   - component: {fileID: 765914245}
   - component: {fileID: 765914247}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma3.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46308,7 +46268,7 @@ GameObject:
   - component: {fileID: 777700798}
   - component: {fileID: 777700797}
   - component: {fileID: 777700799}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (21)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -46419,7 +46379,7 @@ GameObject:
   - component: {fileID: 778932445}
   - component: {fileID: 778932444}
   - component: {fileID: 778932446}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (66)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -46782,9 +46742,9 @@ GameObject:
   - component: {fileID: 787539669}
   - component: {fileID: 787539671}
   - component: {fileID: 787539670}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (86)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46977,9 +46937,9 @@ GameObject:
   - component: {fileID: 788543034}
   - component: {fileID: 788543033}
   - component: {fileID: 788543032}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-15"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47818,11 +47778,10 @@ GameObject:
   - component: {fileID: 810807721}
   - component: {fileID: 810807723}
   - component: {fileID: 810807722}
-  - component: {fileID: 810807724}
   - component: {fileID: 810807725}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma3.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47853,7 +47812,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.36247683}
   m_SpriteTilingProperty:
@@ -47920,25 +47879,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &810807724
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810807720}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!95 &810807725
 Animator:
   serializedVersion: 5
@@ -48723,9 +48663,9 @@ GameObject:
   - component: {fileID: 821240728}
   - component: {fileID: 821240727}
   - component: {fileID: 821240726}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-19"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48918,9 +48858,9 @@ GameObject:
   - component: {fileID: 824689428}
   - component: {fileID: 824689427}
   - component: {fileID: 824689429}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-2"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49272,7 +49212,7 @@ GameObject:
   - component: {fileID: 834529187}
   - component: {fileID: 834529189}
   - component: {fileID: 834529188}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (1)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -49953,7 +49893,7 @@ GameObject:
   - component: {fileID: 847322378}
   - component: {fileID: 847322377}
   - component: {fileID: 847322379}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (2)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -50484,9 +50424,9 @@ GameObject:
   - component: {fileID: 863806059}
   - component: {fileID: 863806058}
   - component: {fileID: 863806057}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-26"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50763,7 +50703,7 @@ GameObject:
   - component: {fileID: 867597275}
   - component: {fileID: 867597274}
   - component: {fileID: 867597276}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (30)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51069,7 +51009,7 @@ GameObject:
   - component: {fileID: 870567411}
   - component: {fileID: 870567413}
   - component: {fileID: 870567412}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (41)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51180,7 +51120,7 @@ GameObject:
   - component: {fileID: 871065327}
   - component: {fileID: 871065326}
   - component: {fileID: 871065328}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (36)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51459,7 +51399,7 @@ GameObject:
   - component: {fileID: 877037172}
   - component: {fileID: 877037174}
   - component: {fileID: 877037173}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (31)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51738,7 +51678,7 @@ GameObject:
   - component: {fileID: 880646517}
   - component: {fileID: 880646516}
   - component: {fileID: 880646518}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (18)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -51960,7 +51900,7 @@ GameObject:
   - component: {fileID: 881706408}
   - component: {fileID: 881706410}
   - component: {fileID: 881706409}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra5"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -52071,7 +52011,7 @@ GameObject:
   - component: {fileID: 881847759}
   - component: {fileID: 881847758}
   - component: {fileID: 881847760}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (71)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -52182,7 +52122,7 @@ GameObject:
   - component: {fileID: 881889320}
   - component: {fileID: 881889322}
   - component: {fileID: 881889321}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra2"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -52740,9 +52680,9 @@ GameObject:
   - component: {fileID: 888598985}
   - component: {fileID: 888598987}
   - component: {fileID: 888598986}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (95)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53494,7 +53434,7 @@ GameObject:
   - component: {fileID: 903671576}
   - component: {fileID: 903671575}
   - component: {fileID: 903671577}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (7)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -53605,7 +53545,7 @@ GameObject:
   - component: {fileID: 904043924}
   - component: {fileID: 904043923}
   - component: {fileID: 904043925}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (59)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -54190,7 +54130,7 @@ GameObject:
   - component: {fileID: 919292461}
   - component: {fileID: 919292460}
   - component: {fileID: 919292462}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (46)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -54413,9 +54353,9 @@ GameObject:
   - component: {fileID: 920021642}
   - component: {fileID: 920021641}
   - component: {fileID: 920021643}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (111)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54823,7 +54763,7 @@ GameObject:
   - component: {fileID: 929292261}
   - component: {fileID: 929292260}
   - component: {fileID: 929292262}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (18)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -55045,9 +54985,9 @@ GameObject:
   - component: {fileID: 930902735}
   - component: {fileID: 930902737}
   - component: {fileID: 930902736}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma7.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55408,9 +55348,9 @@ GameObject:
   - component: {fileID: 937785670}
   - component: {fileID: 937785672}
   - component: {fileID: 937785671}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (101)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55520,7 +55460,7 @@ GameObject:
   - component: {fileID: 937921320}
   - component: {fileID: 937921319}
   - component: {fileID: 937921318}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (86)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -55873,10 +55813,9 @@ GameObject:
   - component: {fileID: 939094998}
   - component: {fileID: 939095000}
   - component: {fileID: 939094999}
-  - component: {fileID: 939095001}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55907,7 +55846,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.35948205}
   m_SpriteTilingProperty:
@@ -55974,25 +55913,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &939095001
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939094997}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!1 &939350877
 GameObject:
   m_ObjectHideFlags: 0
@@ -56185,8 +56105,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940299126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -65.19, y: -3.68, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalPosition: {x: -65.19, y: -3.93, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 467568502}
@@ -56223,8 +56143,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0052915304, y: 0.19035254}
-  m_Size: {x: 1.216616, y: 2.760949}
+  m_Offset: {x: -0.022563934, y: 0.07808824}
+  m_Size: {x: 1.251157, y: 2.9854777}
   m_Direction: 0
 --- !u!50 &940299131
 Rigidbody2D:
@@ -56259,7 +56179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4334b0f1624a869448a077c8447c0270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   groundCheck: {fileID: 467568502}
   groundCheckRadius: 0
   groundLayer:
@@ -56362,7 +56282,7 @@ GameObject:
   - component: {fileID: 943365208}
   - component: {fileID: 943365207}
   - component: {fileID: 943365209}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (22)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -57052,7 +56972,7 @@ GameObject:
   - component: {fileID: 950456501}
   - component: {fileID: 950456504}
   - component: {fileID: 950456503}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (84)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -57163,7 +57083,7 @@ GameObject:
   - component: {fileID: 952007945}
   - component: {fileID: 952007944}
   - component: {fileID: 952007946}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (65)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -57671,7 +57591,7 @@ GameObject:
   - component: {fileID: 960703092}
   - component: {fileID: 960703091}
   - component: {fileID: 960703093}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (77)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -57977,7 +57897,7 @@ GameObject:
   - component: {fileID: 974667316}
   - component: {fileID: 974667318}
   - component: {fileID: 974667317}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-7"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -58089,9 +58009,9 @@ GameObject:
   - component: {fileID: 975103476}
   - component: {fileID: 975103475}
   - component: {fileID: 975103477}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58219,9 +58139,9 @@ GameObject:
   - component: {fileID: 975263956}
   - component: {fileID: 975263958}
   - component: {fileID: 975263957}
-  m_Layer: 11
+  m_Layer: 3
   m_Name: JumpingPlatform
-  m_TagString: Platform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58810,9 +58730,9 @@ GameObject:
   - component: {fileID: 987667786}
   - component: {fileID: 987667788}
   - component: {fileID: 987667787}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (79)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58921,9 +58841,9 @@ GameObject:
   - component: {fileID: 988829630}
   - component: {fileID: 988829632}
   - component: {fileID: 988829631}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-19 (1)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59227,7 +59147,7 @@ GameObject:
   - component: {fileID: 993826550}
   - component: {fileID: 993826549}
   - component: {fileID: 993826551}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (3)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -60249,9 +60169,9 @@ GameObject:
   - component: {fileID: 1004672888}
   - component: {fileID: 1004672890}
   - component: {fileID: 1004672889}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma7.4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60834,7 +60754,7 @@ GameObject:
   - component: {fileID: 1009183191}
   - component: {fileID: 1009183190}
   - component: {fileID: 1009183192}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (26)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -61140,9 +61060,9 @@ GameObject:
   - component: {fileID: 1013870950}
   - component: {fileID: 1013870952}
   - component: {fileID: 1013870951}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-29"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62256,9 +62176,9 @@ GameObject:
   - component: {fileID: 1029769142}
   - component: {fileID: 1029769144}
   - component: {fileID: 1029769143}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (91)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62367,7 +62287,7 @@ GameObject:
   - component: {fileID: 1031041053}
   - component: {fileID: 1031041055}
   - component: {fileID: 1031041054}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-4"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -62562,9 +62482,9 @@ GameObject:
   - component: {fileID: 1038124927}
   - component: {fileID: 1038124929}
   - component: {fileID: 1038124928}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma10.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62673,7 +62593,7 @@ GameObject:
   - component: {fileID: 1043442488}
   - component: {fileID: 1043442490}
   - component: {fileID: 1043442489}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra15"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -62784,7 +62704,7 @@ GameObject:
   - component: {fileID: 1044544397}
   - component: {fileID: 1044544399}
   - component: {fileID: 1044544398}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (39)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -63228,7 +63148,7 @@ GameObject:
   - component: {fileID: 1047461885}
   - component: {fileID: 1047461884}
   - component: {fileID: 1047461886}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (1)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -63852,7 +63772,7 @@ GameObject:
   - component: {fileID: 1055209430}
   - component: {fileID: 1055209429}
   - component: {fileID: 1055209428}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (81)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -64288,9 +64208,9 @@ GameObject:
   - component: {fileID: 1058585450}
   - component: {fileID: 1058585452}
   - component: {fileID: 1058585451}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (96)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64399,7 +64319,7 @@ GameObject:
   - component: {fileID: 1058918370}
   - component: {fileID: 1058918372}
   - component: {fileID: 1058918371}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra6"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -64958,9 +64878,9 @@ GameObject:
   - component: {fileID: 1066560718}
   - component: {fileID: 1066560717}
   - component: {fileID: 1066560716}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (116)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65200,7 +65120,7 @@ GameObject:
   - component: {fileID: 1073026011}
   - component: {fileID: 1073026014}
   - component: {fileID: 1073026013}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (82)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -65563,9 +65483,9 @@ GameObject:
   - component: {fileID: 1082866976}
   - component: {fileID: 1082866978}
   - component: {fileID: 1082866977}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma8.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66289,9 +66209,9 @@ GameObject:
   - component: {fileID: 1095032278}
   - component: {fileID: 1095032277}
   - component: {fileID: 1095032279}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-5"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66595,7 +66515,7 @@ GameObject:
   - component: {fileID: 1100141423}
   - component: {fileID: 1100141425}
   - component: {fileID: 1100141424}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra16"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -66706,7 +66626,7 @@ GameObject:
   - component: {fileID: 1100430661}
   - component: {fileID: 1100430660}
   - component: {fileID: 1100430662}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (42)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -67322,7 +67242,7 @@ GameObject:
   - component: {fileID: 1119784242}
   - component: {fileID: 1119784241}
   - component: {fileID: 1119784243}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (58)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -68076,7 +67996,7 @@ GameObject:
   - component: {fileID: 1135414930}
   - component: {fileID: 1135414932}
   - component: {fileID: 1135414933}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (26)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -68206,7 +68126,7 @@ GameObject:
   - component: {fileID: 1137040773}
   - component: {fileID: 1137040772}
   - component: {fileID: 1137040774}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (27)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -68512,9 +68432,9 @@ GameObject:
   - component: {fileID: 1140627172}
   - component: {fileID: 1140627174}
   - component: {fileID: 1140627173}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma7.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68623,9 +68543,9 @@ GameObject:
   - component: {fileID: 1141365203}
   - component: {fileID: 1141365205}
   - component: {fileID: 1141365204}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma5.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69774,9 +69694,9 @@ GameObject:
   - component: {fileID: 1163706818}
   - component: {fileID: 1163706817}
   - component: {fileID: 1163706819}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.6
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70015,7 +69935,7 @@ GameObject:
   - component: {fileID: 1169947552}
   - component: {fileID: 1169947551}
   - component: {fileID: 1169947553}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (31)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -70301,7 +70221,7 @@ GameObject:
   - component: {fileID: 1179191568}
   - component: {fileID: 1179191570}
   - component: {fileID: 1179191569}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (8)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -70412,7 +70332,7 @@ GameObject:
   - component: {fileID: 1181104168}
   - component: {fileID: 1181104170}
   - component: {fileID: 1181104169}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-3"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -70970,7 +70890,7 @@ GameObject:
   - component: {fileID: 1191467238}
   - component: {fileID: 1191467240}
   - component: {fileID: 1191467239}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (7)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -71112,7 +71032,7 @@ GameObject:
   - component: {fileID: 1194968935}
   - component: {fileID: 1194968934}
   - component: {fileID: 1194968936}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (41)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -71223,9 +71143,9 @@ GameObject:
   - component: {fileID: 1196961924}
   - component: {fileID: 1196961926}
   - component: {fileID: 1196961925}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (90)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72241,9 +72161,9 @@ GameObject:
   - component: {fileID: 1207955235}
   - component: {fileID: 1207955234}
   - component: {fileID: 1207955233}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-22"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72715,9 +72635,9 @@ GameObject:
   - component: {fileID: 1216407901}
   - component: {fileID: 1216407900}
   - component: {fileID: 1216407902}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-7"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72827,9 +72747,9 @@ GameObject:
   - component: {fileID: 1217341433}
   - component: {fileID: 1217341432}
   - component: {fileID: 1217341434}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73773,7 +73693,7 @@ GameObject:
   - component: {fileID: 1223839357}
   - component: {fileID: 1223839356}
   - component: {fileID: 1223839355}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-8 (1)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -74470,7 +74390,7 @@ GameObject:
   - component: {fileID: 1236635471}
   - component: {fileID: 1236635470}
   - component: {fileID: 1236635469}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (67)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -76605,9 +76525,9 @@ GameObject:
   - component: {fileID: 1276451416}
   - component: {fileID: 1276451418}
   - component: {fileID: 1276451417}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma5.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77519,11 +77439,10 @@ GameObject:
   - component: {fileID: 1288907313}
   - component: {fileID: 1288907315}
   - component: {fileID: 1288907314}
-  - component: {fileID: 1288907316}
   - component: {fileID: 1288907317}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77554,7 +77473,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.36862704}
   m_SpriteTilingProperty:
@@ -77621,25 +77540,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &1288907316
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288907312}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!95 &1288907317
 Animator:
   serializedVersion: 5
@@ -77782,7 +77682,7 @@ GameObject:
   - component: {fileID: 1294205099}
   - component: {fileID: 1294205098}
   - component: {fileID: 1294205100}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (60)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -78005,7 +77905,7 @@ GameObject:
   - component: {fileID: 1302817668}
   - component: {fileID: 1302817670}
   - component: {fileID: 1302817671}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (35)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -78247,9 +78147,9 @@ GameObject:
   - component: {fileID: 1308570820}
   - component: {fileID: 1308570822}
   - component: {fileID: 1308570821}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (92)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79501,9 +79401,9 @@ GameObject:
   - component: {fileID: 1324656717}
   - component: {fileID: 1324656716}
   - component: {fileID: 1324656718}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-3"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79834,7 +79734,7 @@ GameObject:
   - component: {fileID: 1331070361}
   - component: {fileID: 1331070363}
   - component: {fileID: 1331070362}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (40)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -80543,9 +80443,9 @@ GameObject:
   - component: {fileID: 1341366495}
   - component: {fileID: 1341366494}
   - component: {fileID: 1341366496}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81063,7 +80963,7 @@ GameObject:
   - component: {fileID: 1349605485}
   - component: {fileID: 1349605487}
   - component: {fileID: 1349605486}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra17"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -81174,7 +81074,7 @@ GameObject:
   - component: {fileID: 1349786072}
   - component: {fileID: 1349786074}
   - component: {fileID: 1349786073}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-2"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -81705,7 +81605,7 @@ GameObject:
   - component: {fileID: 1357086048}
   - component: {fileID: 1357086047}
   - component: {fileID: 1357086049}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (23)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -81816,9 +81716,9 @@ GameObject:
   - component: {fileID: 1358232177}
   - component: {fileID: 1358232176}
   - component: {fileID: 1358232175}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-24"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83080,7 +82980,7 @@ GameObject:
   - component: {fileID: 1378435922}
   - component: {fileID: 1378435925}
   - component: {fileID: 1378435924}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-3 (1)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -83360,9 +83260,9 @@ GameObject:
   - component: {fileID: 1381034381}
   - component: {fileID: 1381034380}
   - component: {fileID: 1381034382}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma3.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84637,7 +84537,7 @@ GameObject:
   - component: {fileID: 1395176834}
   - component: {fileID: 1395176836}
   - component: {fileID: 1395176835}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-6"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -84748,9 +84648,9 @@ GameObject:
   - component: {fileID: 1396345686}
   - component: {fileID: 1396345685}
   - component: {fileID: 1396345684}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-6"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85562,7 +85462,7 @@ GameObject:
   - component: {fileID: 1411927486}
   - component: {fileID: 1411927485}
   - component: {fileID: 1411927487}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (69)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -85952,7 +85852,7 @@ GameObject:
   - component: {fileID: 1421152146}
   - component: {fileID: 1421152148}
   - component: {fileID: 1421152147}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (44)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -86063,7 +85963,7 @@ GameObject:
   - component: {fileID: 1422641097}
   - component: {fileID: 1422641099}
   - component: {fileID: 1422641098}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (53)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -86675,7 +86575,7 @@ GameObject:
   - component: {fileID: 1430640163}
   - component: {fileID: 1430640162}
   - component: {fileID: 1430640164}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (14)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -87233,9 +87133,9 @@ GameObject:
   - component: {fileID: 1441301777}
   - component: {fileID: 1441301780}
   - component: {fileID: 1441301779}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (106)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87344,7 +87244,7 @@ GameObject:
   - component: {fileID: 1444338923}
   - component: {fileID: 1444338922}
   - component: {fileID: 1444338924}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (70)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -87872,7 +87772,7 @@ GameObject:
   - component: {fileID: 1447739440}
   - component: {fileID: 1447739442}
   - component: {fileID: 1447739441}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra12"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -88415,9 +88315,9 @@ GameObject:
   - component: {fileID: 1462504919}
   - component: {fileID: 1462504918}
   - component: {fileID: 1462504917}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-14"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88727,9 +88627,9 @@ GameObject:
   - component: {fileID: 1472468984}
   - component: {fileID: 1472468983}
   - component: {fileID: 1472468982}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-25"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89841,7 +89741,7 @@ GameObject:
   - component: {fileID: 1496885810}
   - component: {fileID: 1496885812}
   - component: {fileID: 1496885813}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (28)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -90167,7 +90067,7 @@ GameObject:
   - component: {fileID: 1502526905}
   - component: {fileID: 1502526907}
   - component: {fileID: 1502526906}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra10"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -90313,9 +90213,9 @@ GameObject:
   - component: {fileID: 1504838700}
   - component: {fileID: 1504838705}
   - component: {fileID: 1504838703}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90456,7 +90356,7 @@ GameObject:
   - component: {fileID: 1505687246}
   - component: {fileID: 1505687245}
   - component: {fileID: 1505687247}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (75)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -90678,7 +90578,7 @@ GameObject:
   - component: {fileID: 1509866085}
   - component: {fileID: 1509866084}
   - component: {fileID: 1509866086}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (40)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -91627,7 +91527,7 @@ GameObject:
   - component: {fileID: 1517261023}
   - component: {fileID: 1517261022}
   - component: {fileID: 1517261024}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (51)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -91933,7 +91833,7 @@ GameObject:
   - component: {fileID: 1523027493}
   - component: {fileID: 1523027492}
   - component: {fileID: 1523027494}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (56)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -92128,7 +92028,7 @@ GameObject:
   - component: {fileID: 1526746840}
   - component: {fileID: 1526746839}
   - component: {fileID: 1526746841}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (22)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -92638,7 +92538,7 @@ GameObject:
   - component: {fileID: 1532440821}
   - component: {fileID: 1532440820}
   - component: {fileID: 1532440822}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (19)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -93808,7 +93708,7 @@ GameObject:
   - component: {fileID: 1543306236}
   - component: {fileID: 1543306238}
   - component: {fileID: 1543306237}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra14"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -94004,9 +93904,9 @@ GameObject:
   - component: {fileID: 1544465466}
   - component: {fileID: 1544465465}
   - component: {fileID: 1544465467}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94721,9 +94621,9 @@ GameObject:
   - component: {fileID: 1549852717}
   - component: {fileID: 1549852716}
   - component: {fileID: 1549852715}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-11 (1)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94852,9 +94752,9 @@ GameObject:
   - component: {fileID: 1550208990}
   - component: {fileID: 1550208992}
   - component: {fileID: 1550208991}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (93)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95353,9 +95253,9 @@ GameObject:
   - component: {fileID: 1558290858}
   - component: {fileID: 1558290860}
   - component: {fileID: 1558290859}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (80)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95827,7 +95727,7 @@ GameObject:
   - component: {fileID: 1568465153}
   - component: {fileID: 1568465152}
   - component: {fileID: 1568465154}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (54)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -95938,9 +95838,9 @@ GameObject:
   - component: {fileID: 1568499593}
   - component: {fileID: 1568499595}
   - component: {fileID: 1568499594}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma4.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96049,7 +95949,7 @@ GameObject:
   - component: {fileID: 1570940982}
   - component: {fileID: 1570940984}
   - component: {fileID: 1570940983}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (38)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -96466,9 +96366,9 @@ GameObject:
   - component: {fileID: 1576916897}
   - component: {fileID: 1576916896}
   - component: {fileID: 1576916895}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-17"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97506,9 +97406,9 @@ GameObject:
   - component: {fileID: 1594158950}
   - component: {fileID: 1594158949}
   - component: {fileID: 1594158951}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98510,7 +98410,7 @@ GameObject:
   - component: {fileID: 1617841862}
   - component: {fileID: 1617841864}
   - component: {fileID: 1617841863}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra4"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -98984,7 +98884,7 @@ GameObject:
   - component: {fileID: 1622075513}
   - component: {fileID: 1622075512}
   - component: {fileID: 1622075514}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (50)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -99374,7 +99274,7 @@ GameObject:
   - component: {fileID: 1628604327}
   - component: {fileID: 1628604326}
   - component: {fileID: 1628604328}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (25)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -100235,9 +100135,9 @@ GameObject:
   - component: {fileID: 1642206706}
   - component: {fileID: 1642206708}
   - component: {fileID: 1642206707}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma4.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100572,7 +100472,7 @@ GameObject:
   - component: {fileID: 1648168861}
   - component: {fileID: 1648168860}
   - component: {fileID: 1648168862}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (53)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -100683,9 +100583,9 @@ GameObject:
   - component: {fileID: 1650468921}
   - component: {fileID: 1650468924}
   - component: {fileID: 1650468923}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (113)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100794,7 +100694,7 @@ GameObject:
   - component: {fileID: 1651667693}
   - component: {fileID: 1651667695}
   - component: {fileID: 1651667694}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (43)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -101023,7 +100923,7 @@ GameObject:
   - component: {fileID: 1652733237}
   - component: {fileID: 1652733236}
   - component: {fileID: 1652733238}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (62)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -101530,7 +101430,7 @@ GameObject:
   - component: {fileID: 1660511717}
   - component: {fileID: 1660511716}
   - component: {fileID: 1660511718}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (25)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -102367,10 +102267,9 @@ GameObject:
   - component: {fileID: 1671584094}
   - component: {fileID: 1671584096}
   - component: {fileID: 1671584095}
-  - component: {fileID: 1671584097}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102401,7 +102300,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.36470547}
   m_SpriteTilingProperty:
@@ -102468,25 +102367,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &1671584097
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671584093}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!1 &1673221781
 GameObject:
   m_ObjectHideFlags: 0
@@ -102666,7 +102546,7 @@ GameObject:
   - component: {fileID: 1675907941}
   - component: {fileID: 1675907943}
   - component: {fileID: 1675907942}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-1"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -102861,7 +102741,7 @@ GameObject:
   - component: {fileID: 1677261938}
   - component: {fileID: 1677261940}
   - component: {fileID: 1677261939}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (48)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -103590,9 +103470,9 @@ GameObject:
   - component: {fileID: 1692299659}
   - component: {fileID: 1692299658}
   - component: {fileID: 1692299657}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-21"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103943,7 +103823,7 @@ GameObject:
   - component: {fileID: 1695658435}
   - component: {fileID: 1695658437}
   - component: {fileID: 1695658436}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra11"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -104222,7 +104102,7 @@ GameObject:
   - component: {fileID: 1700322212}
   - component: {fileID: 1700322214}
   - component: {fileID: 1700322213}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (2)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -104682,7 +104562,7 @@ GameObject:
   - component: {fileID: 1702592194}
   - component: {fileID: 1702592193}
   - component: {fileID: 1702592195}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (34)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -104794,7 +104674,7 @@ GameObject:
   - component: {fileID: 1702888150}
   - component: {fileID: 1702888149}
   - component: {fileID: 1702888148}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-12 (1)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -105204,7 +105084,7 @@ GameObject:
   - component: {fileID: 1705195958}
   - component: {fileID: 1705195960}
   - component: {fileID: 1705195959}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra3"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -105537,9 +105417,9 @@ GameObject:
   - component: {fileID: 1707320044}
   - component: {fileID: 1707320043}
   - component: {fileID: 1707320042}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-18"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105648,7 +105528,7 @@ GameObject:
   - component: {fileID: 1709024883}
   - component: {fileID: 1709024885}
   - component: {fileID: 1709024884}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (4)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -106065,9 +105945,9 @@ GameObject:
   - component: {fileID: 1718718226}
   - component: {fileID: 1718718228}
   - component: {fileID: 1718718227}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (94)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107181,9 +107061,9 @@ GameObject:
   - component: {fileID: 1734864996}
   - component: {fileID: 1734864998}
   - component: {fileID: 1734864997}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma5.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107641,7 +107521,7 @@ GameObject:
   - component: {fileID: 1751233781}
   - component: {fileID: 1751233783}
   - component: {fileID: 1751233782}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (6)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -108563,7 +108443,7 @@ GameObject:
   - component: {fileID: 1763429972}
   - component: {fileID: 1763429974}
   - component: {fileID: 1763429975}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (11)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -109336,7 +109216,7 @@ GameObject:
   - component: {fileID: 1772665155}
   - component: {fileID: 1772665154}
   - component: {fileID: 1772665156}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (17)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -109589,7 +109469,7 @@ GameObject:
   - component: {fileID: 1774870662}
   - component: {fileID: 1774870661}
   - component: {fileID: 1774870663}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (4)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -110344,7 +110224,7 @@ GameObject:
   - component: {fileID: 1793421871}
   - component: {fileID: 1793421873}
   - component: {fileID: 1793421874}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (49)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -111450,9 +111330,9 @@ GameObject:
   - component: {fileID: 1800574751}
   - component: {fileID: 1800574753}
   - component: {fileID: 1800574752}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (100)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111840,9 +111720,9 @@ GameObject:
   - component: {fileID: 1808498675}
   - component: {fileID: 1808498677}
   - component: {fileID: 1808498676}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (115)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111951,7 +111831,7 @@ GameObject:
   - component: {fileID: 1808980855}
   - component: {fileID: 1808980857}
   - component: {fileID: 1808980856}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1 (5)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -112063,7 +111943,7 @@ GameObject:
   - component: {fileID: 1809820126}
   - component: {fileID: 1809820125}
   - component: {fileID: 1809820124}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (88)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -112278,9 +112158,9 @@ GameObject:
   - component: {fileID: 1810358307}
   - component: {fileID: 1810358309}
   - component: {fileID: 1810358308}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112642,9 +112522,9 @@ GameObject:
   - component: {fileID: 1811764836}
   - component: {fileID: 1811764835}
   - component: {fileID: 1811764837}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112940,7 +112820,7 @@ GameObject:
   - component: {fileID: 1814454088}
   - component: {fileID: 1814454087}
   - component: {fileID: 1814454089}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (55)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -113389,9 +113269,9 @@ GameObject:
   - component: {fileID: 1825552635}
   - component: {fileID: 1825552637}
   - component: {fileID: 1825552636}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (98)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114116,7 +113996,7 @@ GameObject:
   - component: {fileID: 1834093811}
   - component: {fileID: 1834093810}
   - component: {fileID: 1834093812}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (19)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -114423,7 +114303,7 @@ GameObject:
   - component: {fileID: 1840605141}
   - component: {fileID: 1840605140}
   - component: {fileID: 1840605142}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-8"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -114974,7 +114854,7 @@ GameObject:
   - component: {fileID: 1847210232}
   - component: {fileID: 1847210234}
   - component: {fileID: 1847210233}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (34)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -115085,9 +114965,9 @@ GameObject:
   - component: {fileID: 1849178116}
   - component: {fileID: 1849178118}
   - component: {fileID: 1849178117}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma7.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115196,7 +115076,7 @@ GameObject:
   - component: {fileID: 1852049280}
   - component: {fileID: 1852049279}
   - component: {fileID: 1852049281}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (27)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -115391,7 +115271,7 @@ GameObject:
   - component: {fileID: 1852492784}
   - component: {fileID: 1852492786}
   - component: {fileID: 1852492785}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra1"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -116339,9 +116219,9 @@ GameObject:
   - component: {fileID: 1867958644}
   - component: {fileID: 1867958646}
   - component: {fileID: 1867958645}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma9.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116813,7 +116693,7 @@ GameObject:
   - component: {fileID: 1875095460}
   - component: {fileID: 1875095462}
   - component: {fileID: 1875095461}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (46)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -117035,9 +116915,9 @@ GameObject:
   - component: {fileID: 1876752584}
   - component: {fileID: 1876752586}
   - component: {fileID: 1876752585}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma8.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117146,7 +117026,7 @@ GameObject:
   - component: {fileID: 1879274031}
   - component: {fileID: 1879274033}
   - component: {fileID: 1879274032}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (37)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -117257,7 +117137,7 @@ GameObject:
   - component: {fileID: 1879731862}
   - component: {fileID: 1879731864}
   - component: {fileID: 1879731863}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (45)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -118968,9 +118848,9 @@ GameObject:
   - component: {fileID: 1900291592}
   - component: {fileID: 1900291594}
   - component: {fileID: 1900291593}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (84)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119247,10 +119127,9 @@ GameObject:
   - component: {fileID: 1904469189}
   - component: {fileID: 1904469191}
   - component: {fileID: 1904469190}
-  - component: {fileID: 1904469192}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma2.3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119281,7 +119160,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.36470547}
   m_SpriteTilingProperty:
@@ -119348,25 +119227,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &1904469192
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904469188}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!1 &1912455187
 GameObject:
   m_ObjectHideFlags: 0
@@ -120057,9 +119917,9 @@ GameObject:
   - component: {fileID: 1923980654}
   - component: {fileID: 1923980656}
   - component: {fileID: 1923980655}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma1.2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120252,9 +120112,9 @@ GameObject:
   - component: {fileID: 1925698759}
   - component: {fileID: 1925698758}
   - component: {fileID: 1925698757}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-12"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120867,9 +120727,9 @@ GameObject:
   - component: {fileID: 1941692960}
   - component: {fileID: 1941692962}
   - component: {fileID: 1941692961}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (85)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123717,7 +123577,7 @@ GameObject:
   - component: {fileID: 2001439090}
   - component: {fileID: 2001439092}
   - component: {fileID: 2001439091}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (56)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -124567,7 +124427,7 @@ GameObject:
   - component: {fileID: 2013149920}
   - component: {fileID: 2013149919}
   - component: {fileID: 2013149921}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (45)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -125994,7 +125854,7 @@ GameObject:
   - component: {fileID: 2033828484}
   - component: {fileID: 2033828483}
   - component: {fileID: 2033828485}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (32)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -127110,9 +126970,9 @@ GameObject:
   - component: {fileID: 2051206604}
   - component: {fileID: 2051206606}
   - component: {fileID: 2051206605}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (103)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127344,7 +127204,7 @@ GameObject:
   - component: {fileID: 2053114015}
   - component: {fileID: 2053114014}
   - component: {fileID: 2053114013}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (68)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -128514,7 +128374,7 @@ GameObject:
   - component: {fileID: 2066960300}
   - component: {fileID: 2066960302}
   - component: {fileID: 2066960301}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (55)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -128709,7 +128569,7 @@ GameObject:
   - component: {fileID: 2067338079}
   - component: {fileID: 2067338081}
   - component: {fileID: 2067338080}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga1-5"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -128821,9 +128681,9 @@ GameObject:
   - component: {fileID: 2068166619}
   - component: {fileID: 2068166618}
   - component: {fileID: 2068166617}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-23 (1)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129063,7 +128923,7 @@ GameObject:
   - component: {fileID: 2070450899}
   - component: {fileID: 2070450898}
   - component: {fileID: 2070450900}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (57)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -129258,7 +129118,7 @@ GameObject:
   - component: {fileID: 2074473034}
   - component: {fileID: 2074473036}
   - component: {fileID: 2074473035}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra8"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -129453,9 +129313,9 @@ GameObject:
   - component: {fileID: 2075712324}
   - component: {fileID: 2075712326}
   - component: {fileID: 2075712325}
-  m_Layer: 11
+  m_Layer: 3
   m_Name: JumpingPlatform
-  m_TagString: Platform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129564,7 +129424,7 @@ GameObject:
   - component: {fileID: 2079202980}
   - component: {fileID: 2079202982}
   - component: {fileID: 2079202981}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "BrukG\xF3ra9"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -129843,9 +129703,9 @@ GameObject:
   - component: {fileID: 2088942451}
   - component: {fileID: 2088942453}
   - component: {fileID: 2088942452}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (110)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130578,7 +130438,7 @@ GameObject:
   - component: {fileID: 2096136861}
   - component: {fileID: 2096136860}
   - component: {fileID: 2096136862}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (15)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -130689,9 +130549,9 @@ GameObject:
   - component: {fileID: 2096767598}
   - component: {fileID: 2096767600}
   - component: {fileID: 2096767599}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platforma6.1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132066,7 +131926,7 @@ GameObject:
   - component: {fileID: 2111711142}
   - component: {fileID: 2111711141}
   - component: {fileID: 2111711143}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (5)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -132177,9 +132037,9 @@ GameObject:
   - component: {fileID: 2114330715}
   - component: {fileID: 2114330717}
   - component: {fileID: 2114330716}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142oga4-8 (1)"
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133236,7 +133096,7 @@ GameObject:
   - component: {fileID: 2123113137}
   - component: {fileID: 2123113136}
   - component: {fileID: 2123113138}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (24)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -134052,7 +133912,7 @@ GameObject:
   - component: {fileID: 2133790566}
   - component: {fileID: 2133790565}
   - component: {fileID: 2133790564}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Pod\u0142ogaV2 (87)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -134600,7 +134460,7 @@ GameObject:
   - component: {fileID: 2145438754}
   - component: {fileID: 2145438756}
   - component: {fileID: 2145438755}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: "Bruk_Pod\u0142oga (52)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
