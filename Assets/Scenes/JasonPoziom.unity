@@ -1061,9 +1061,9 @@ GameObject:
   - component: {fileID: 53789848}
   - component: {fileID: 53789850}
   - component: {fileID: 53789849}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3505,9 +3505,9 @@ GameObject:
   - component: {fileID: 100717072}
   - component: {fileID: 100717071}
   - component: {fileID: 100717070}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4117,9 +4117,9 @@ GameObject:
   - component: {fileID: 123249754}
   - component: {fileID: 123249755}
   - component: {fileID: 123249756}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (76)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4312,9 +4312,9 @@ GameObject:
   - component: {fileID: 127312568}
   - component: {fileID: 127312569}
   - component: {fileID: 127312570}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (68)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4843,9 +4843,9 @@ GameObject:
   - component: {fileID: 158448844}
   - component: {fileID: 158448845}
   - component: {fileID: 158448846}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (77)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5038,9 +5038,9 @@ GameObject:
   - component: {fileID: 166587715}
   - component: {fileID: 166587716}
   - component: {fileID: 166587717}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (34)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6138,9 +6138,9 @@ GameObject:
   - component: {fileID: 192537328}
   - component: {fileID: 192537329}
   - component: {fileID: 192537330}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6417,9 +6417,9 @@ GameObject:
   - component: {fileID: 197761278}
   - component: {fileID: 197761277}
   - component: {fileID: 197761276}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: lake-bridge (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6696,9 +6696,9 @@ GameObject:
   - component: {fileID: 206567161}
   - component: {fileID: 206567160}
   - component: {fileID: 206567162}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7557,9 +7557,9 @@ GameObject:
   - component: {fileID: 235496571}
   - component: {fileID: 235496572}
   - component: {fileID: 235496573}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7752,9 +7752,9 @@ GameObject:
   - component: {fileID: 237585756}
   - component: {fileID: 237585755}
   - component: {fileID: 237585757}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bruk (374)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7947,9 +7947,9 @@ GameObject:
   - component: {fileID: 243791673}
   - component: {fileID: 243791675}
   - component: {fileID: 243791674}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8310,9 +8310,9 @@ GameObject:
   - component: {fileID: 254801995}
   - component: {fileID: 254801997}
   - component: {fileID: 254801996}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: log
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8673,9 +8673,9 @@ GameObject:
   - component: {fileID: 265662550}
   - component: {fileID: 265662549}
   - component: {fileID: 265662548}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: lake-bridge
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9473,9 +9473,9 @@ GameObject:
   - component: {fileID: 293749575}
   - component: {fileID: 293749576}
   - component: {fileID: 293749577}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9668,9 +9668,9 @@ GameObject:
   - component: {fileID: 295961214}
   - component: {fileID: 295961213}
   - component: {fileID: 295961212}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9779,9 +9779,9 @@ GameObject:
   - component: {fileID: 296495638}
   - component: {fileID: 296495640}
   - component: {fileID: 296495639}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11790,9 +11790,9 @@ GameObject:
   - component: {fileID: 343381614}
   - component: {fileID: 343381613}
   - component: {fileID: 343381615}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12153,9 +12153,9 @@ GameObject:
   - component: {fileID: 355291982}
   - component: {fileID: 355291984}
   - component: {fileID: 355291983}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: log (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12348,9 +12348,9 @@ GameObject:
   - component: {fileID: 362114921}
   - component: {fileID: 362114923}
   - component: {fileID: 362114922}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12822,9 +12822,9 @@ GameObject:
   - component: {fileID: 371564408}
   - component: {fileID: 371564407}
   - component: {fileID: 371564406}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13338,9 +13338,9 @@ GameObject:
   - component: {fileID: 383678220}
   - component: {fileID: 383678222}
   - component: {fileID: 383678221}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: lake-bridge (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13900,9 +13900,9 @@ GameObject:
   - component: {fileID: 401669668}
   - component: {fileID: 401669667}
   - component: {fileID: 401669666}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14011,9 +14011,9 @@ GameObject:
   - component: {fileID: 404848136}
   - component: {fileID: 404848135}
   - component: {fileID: 404848137}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14290,9 +14290,9 @@ GameObject:
   - component: {fileID: 412049026}
   - component: {fileID: 412049027}
   - component: {fileID: 412049028}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (80)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14485,9 +14485,9 @@ GameObject:
   - component: {fileID: 413087221}
   - component: {fileID: 413087220}
   - component: {fileID: 413087219}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14680,9 +14680,9 @@ GameObject:
   - component: {fileID: 417848997}
   - component: {fileID: 417848996}
   - component: {fileID: 417848998}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: sand (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15295,9 +15295,9 @@ GameObject:
   - component: {fileID: 431732448}
   - component: {fileID: 431732450}
   - component: {fileID: 431732449}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17988,9 +17988,9 @@ GameObject:
   - component: {fileID: 498665390}
   - component: {fileID: 498665389}
   - component: {fileID: 498665391}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18183,9 +18183,9 @@ GameObject:
   - component: {fileID: 506104997}
   - component: {fileID: 506104998}
   - component: {fileID: 506104999}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18462,9 +18462,9 @@ GameObject:
   - component: {fileID: 514307607}
   - component: {fileID: 514307608}
   - component: {fileID: 514307609}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19482,9 +19482,9 @@ GameObject:
   - component: {fileID: 553595252}
   - component: {fileID: 553595254}
   - component: {fileID: 553595253}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20208,9 +20208,9 @@ GameObject:
   - component: {fileID: 574864179}
   - component: {fileID: 574864180}
   - component: {fileID: 574864181}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21874,9 +21874,9 @@ GameObject:
   - component: {fileID: 624281256}
   - component: {fileID: 624281258}
   - component: {fileID: 624281257}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22397,9 +22397,9 @@ GameObject:
   - component: {fileID: 641307669}
   - component: {fileID: 641307668}
   - component: {fileID: 641307670}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23946,9 +23946,9 @@ GameObject:
   - component: {fileID: 693497573}
   - component: {fileID: 693497575}
   - component: {fileID: 693497574}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24465,9 +24465,9 @@ GameObject:
   - component: {fileID: 714291025}
   - component: {fileID: 714291027}
   - component: {fileID: 714291026}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27679,9 +27679,9 @@ GameObject:
   - component: {fileID: 797105140}
   - component: {fileID: 797105139}
   - component: {fileID: 797105141}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27874,9 +27874,9 @@ GameObject:
   - component: {fileID: 808577339}
   - component: {fileID: 808577338}
   - component: {fileID: 808577340}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28432,9 +28432,9 @@ GameObject:
   - component: {fileID: 827950374}
   - component: {fileID: 827950375}
   - component: {fileID: 827950376}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28795,9 +28795,9 @@ GameObject:
   - component: {fileID: 832972569}
   - component: {fileID: 832972570}
   - component: {fileID: 832972571}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29995,9 +29995,9 @@ GameObject:
   - component: {fileID: 887970004}
   - component: {fileID: 887970005}
   - component: {fileID: 887970006}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (79)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30435,9 +30435,9 @@ GameObject:
   - component: {fileID: 895607718}
   - component: {fileID: 895607719}
   - component: {fileID: 895607720}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31696,9 +31696,9 @@ GameObject:
   - component: {fileID: 928275069}
   - component: {fileID: 928275070}
   - component: {fileID: 928275071}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31891,9 +31891,9 @@ GameObject:
   - component: {fileID: 930864143}
   - component: {fileID: 930864144}
   - component: {fileID: 930864145}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32002,9 +32002,9 @@ GameObject:
   - component: {fileID: 930874370}
   - component: {fileID: 930874371}
   - component: {fileID: 930874372}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32509,9 +32509,9 @@ GameObject:
   - component: {fileID: 948315170}
   - component: {fileID: 948315169}
   - component: {fileID: 948315168}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: lake-bridge (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33151,9 +33151,9 @@ GameObject:
   - component: {fileID: 957282429}
   - component: {fileID: 957282428}
   - component: {fileID: 957282430}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bruk (375)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34157,9 +34157,9 @@ GameObject:
   - component: {fileID: 988953496}
   - component: {fileID: 988953497}
   - component: {fileID: 988953498}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34547,9 +34547,9 @@ GameObject:
   - component: {fileID: 998378563}
   - component: {fileID: 998378562}
   - component: {fileID: 998378561}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35325,9 +35325,9 @@ GameObject:
   - component: {fileID: 1026943096}
   - component: {fileID: 1026943098}
   - component: {fileID: 1026943097}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35940,9 +35940,9 @@ GameObject:
   - component: {fileID: 1046825653}
   - component: {fileID: 1046825654}
   - component: {fileID: 1046825655}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36471,9 +36471,9 @@ GameObject:
   - component: {fileID: 1062425138}
   - component: {fileID: 1062425137}
   - component: {fileID: 1062425136}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37410,9 +37410,9 @@ GameObject:
   - component: {fileID: 1077443974}
   - component: {fileID: 1077443975}
   - component: {fileID: 1077443976}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38540,9 +38540,9 @@ GameObject:
   - component: {fileID: 1125631388}
   - component: {fileID: 1125631390}
   - component: {fileID: 1125631389}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42500,7 +42500,7 @@ MonoBehaviour:
   groundCheckRadius: 1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 72
   nextLevelScene: 
   progressBar: {fileID: 0}
 --- !u!60 &1237127976
@@ -43861,9 +43861,9 @@ GameObject:
   - component: {fileID: 1268078716}
   - component: {fileID: 1268078715}
   - component: {fileID: 1268078717}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44409,9 +44409,9 @@ GameObject:
   - component: {fileID: 1294045307}
   - component: {fileID: 1294045308}
   - component: {fileID: 1294045309}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: sand (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45051,9 +45051,9 @@ GameObject:
   - component: {fileID: 1319433025}
   - component: {fileID: 1319433024}
   - component: {fileID: 1319433023}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45246,9 +45246,9 @@ GameObject:
   - component: {fileID: 1335951558}
   - component: {fileID: 1335951559}
   - component: {fileID: 1335951560}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (81)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46538,9 +46538,9 @@ GameObject:
   - component: {fileID: 1362953216}
   - component: {fileID: 1362953217}
   - component: {fileID: 1362953218}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47118,9 +47118,9 @@ GameObject:
   - component: {fileID: 1381613239}
   - component: {fileID: 1381613238}
   - component: {fileID: 1381613240}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47897,9 +47897,9 @@ GameObject:
   - component: {fileID: 1410639231}
   - component: {fileID: 1410639232}
   - component: {fileID: 1410639233}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48327,9 +48327,9 @@ GameObject:
   - component: {fileID: 1425885398}
   - component: {fileID: 1425885400}
   - component: {fileID: 1425885399}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50814,9 +50814,9 @@ GameObject:
   - component: {fileID: 1507692178}
   - component: {fileID: 1507692179}
   - component: {fileID: 1507692180}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (35)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51177,9 +51177,9 @@ GameObject:
   - component: {fileID: 1516016920}
   - component: {fileID: 1516016921}
   - component: {fileID: 1516016922}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (67)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52469,9 +52469,9 @@ GameObject:
   - component: {fileID: 1558885067}
   - component: {fileID: 1558885069}
   - component: {fileID: 1558885068}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52580,9 +52580,9 @@ GameObject:
   - component: {fileID: 1560454813}
   - component: {fileID: 1560454815}
   - component: {fileID: 1560454814}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53027,9 +53027,9 @@ GameObject:
   - component: {fileID: 1581293943}
   - component: {fileID: 1581293942}
   - component: {fileID: 1581293941}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53558,9 +53558,9 @@ GameObject:
   - component: {fileID: 1610701544}
   - component: {fileID: 1610701543}
   - component: {fileID: 1610701542}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54759,9 +54759,9 @@ GameObject:
   - component: {fileID: 1657527683}
   - component: {fileID: 1657527682}
   - component: {fileID: 1657527684}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55886,9 +55886,9 @@ GameObject:
   - component: {fileID: 1701660068}
   - component: {fileID: 1701660069}
   - component: {fileID: 1701660070}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: grass (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56534,9 +56534,9 @@ GameObject:
   - component: {fileID: 1712707140}
   - component: {fileID: 1712707139}
   - component: {fileID: 1712707138}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56645,9 +56645,9 @@ GameObject:
   - component: {fileID: 1714250018}
   - component: {fileID: 1714250019}
   - component: {fileID: 1714250020}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58545,9 +58545,9 @@ GameObject:
   - component: {fileID: 1793170931}
   - component: {fileID: 1793170932}
   - component: {fileID: 1793170933}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (35)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58962,9 +58962,9 @@ GameObject:
   - component: {fileID: 1802287916}
   - component: {fileID: 1802287915}
   - component: {fileID: 1802287917}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59436,9 +59436,9 @@ GameObject:
   - component: {fileID: 1815648705}
   - component: {fileID: 1815648707}
   - component: {fileID: 1815648706}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59830,9 +59830,9 @@ GameObject:
   - component: {fileID: 1830324544}
   - component: {fileID: 1830324545}
   - component: {fileID: 1830324546}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60529,9 +60529,9 @@ GameObject:
   - component: {fileID: 1848992804}
   - component: {fileID: 1848992806}
   - component: {fileID: 1848992805}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62700,9 +62700,9 @@ GameObject:
   - component: {fileID: 1919465559}
   - component: {fileID: 1919465560}
   - component: {fileID: 1919465561}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: sand (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63285,7 +63285,6 @@ GameObject:
   - component: {fileID: 1939659779}
   - component: {fileID: 1939659782}
   - component: {fileID: 1939659778}
-  - component: {fileID: 1939659781}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -63352,30 +63351,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939659777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.61, y: 0.5600004, z: 0}
+  m_LocalPosition: {x: 31.9, y: 0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1939659781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939659777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa85b8ebc3f61ec4f8e3f2131b418b05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1237127971}
-  offset: {x: 3, y: 0, z: -10}
-  smoothFactor: 3
-  minValues: {x: -15.15, y: -3, z: -10}
-  maxValue: {x: 99.5, y: 6, z: -10}
 --- !u!114 &1939659782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63388,11 +63370,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e4689ab4d69e34ba865f405fe00310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1237127971}
   offset: {x: 0, y: 0, z: 0}
-  smoothFactor: 0
-  minValues: {x: 0, y: 0, z: 0}
-  maxValue: {x: 0, y: 0, z: 0}
+  smoothFactor: 3
+  minValues: {x: -15.2, y: -3, z: 0}
+  maxValue: {x: 99.2, y: 6, z: 0}
 --- !u!1 &1940777359
 GameObject:
   m_ObjectHideFlags: 0
@@ -63439,9 +63421,9 @@ GameObject:
   - component: {fileID: 1943574204}
   - component: {fileID: 1943574205}
   - component: {fileID: 1943574206}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63634,9 +63616,9 @@ GameObject:
   - component: {fileID: 1953581722}
   - component: {fileID: 1953581724}
   - component: {fileID: 1953581723}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: grass (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64975,9 +64957,9 @@ GameObject:
   - component: {fileID: 2005703068}
   - component: {fileID: 2005703070}
   - component: {fileID: 2005703069}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66313,9 +66295,9 @@ GameObject:
   - component: {fileID: 2060254512}
   - component: {fileID: 2060254513}
   - component: {fileID: 2060254514}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: soil (82)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67096,9 +67078,9 @@ GameObject:
   - component: {fileID: 2092104644}
   - component: {fileID: 2092104646}
   - component: {fileID: 2092104645}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67291,9 +67273,9 @@ GameObject:
   - component: {fileID: 2105856782}
   - component: {fileID: 2105856783}
   - component: {fileID: 2105856784}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: WallWood (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67402,9 +67384,9 @@ GameObject:
   - component: {fileID: 2106047485}
   - component: {fileID: 2106047487}
   - component: {fileID: 2106047486}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Block (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68083,9 +68065,9 @@ GameObject:
   - component: {fileID: 2128694724}
   - component: {fileID: 2128694723}
   - component: {fileID: 2128694722}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: grass (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
