@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,12 +16,21 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask groundLayer;
 
+    public string nextLevelScene;
+    public Slider progressBar;
+    private int score = 0;
+    private int maxScore = 10;
+    private int coinsCollected = 0;
+
+    private Vector3 respawnPoint;
+
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
 
     void Start()
     {
         player = GetComponent<Rigidbody2D>();
+        respawnPoint = transform.position;
     }
 
     void Update()
@@ -50,7 +61,22 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Platform"))
+        if (collision.tag == "NextLevel")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            respawnPoint = transform.position;
+        }
+        else if (collision.tag == "PreviousLevel")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            respawnPoint = transform.position;
+        }
+
+        else if (collision.CompareTag("Coin"))
+        {
+            CollectCoin(collision.gameObject);
+        }
+        else if (collision.CompareTag("Platform"))
         {
             isOnMovingPlatform = true;
             currentPlatform = collision.transform.parent;
@@ -65,6 +91,28 @@ public class PlayerController : MonoBehaviour
             isOnMovingPlatform = false;
             currentPlatform = null;
             transform.SetParent(null);
+        }
+    }
+
+    private void CollectCoin(GameObject coin)
+    {
+        score++;
+        progressBar.value = (float)score / maxScore;
+
+        coinsCollected++;
+
+        Destroy(coin);
+
+        if (coinsCollected >= 10)
+        {
+            LoadNextLevel();
+        }
+    }
+    private void LoadNextLevel()
+    {
+        if (!string.IsNullOrEmpty(nextLevelScene))
+        {
+            SceneManager.LoadScene(nextLevelScene);
         }
     }
 }

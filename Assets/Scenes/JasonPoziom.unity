@@ -42501,6 +42501,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  nextLevelScene: 
+  progressBar: {fileID: 0}
 --- !u!60 &1237127976
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -48093,11 +48095,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de259243aa518443961a0318a72cc9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  amount: 0
   player: {fileID: 0}
+  direction: {x: 0, y: 0, z: 0}
+  runPoint: {x: 0, y: 0, z: 0}
   points:
   - {fileID: 921993287}
   - {fileID: 1372299527}
   nextID: 1
+  idChangeValue: 1
   speed: 2
 --- !u!70 &1416167488
 CapsuleCollider2D:
@@ -63277,6 +63283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939659780}
   - component: {fileID: 1939659779}
+  - component: {fileID: 1939659782}
   - component: {fileID: 1939659778}
   - component: {fileID: 1939659781}
   m_Layer: 0
@@ -63369,6 +63376,23 @@ MonoBehaviour:
   smoothFactor: 3
   minValues: {x: -15.15, y: -3, z: -10}
   maxValue: {x: 99.5, y: 6, z: -10}
+--- !u!114 &1939659782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939659777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e4689ab4d69e34ba865f405fe00310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  smoothFactor: 0
+  minValues: {x: 0, y: 0, z: 0}
+  maxValue: {x: 0, y: 0, z: 0}
 --- !u!1 &1940777359
 GameObject:
   m_ObjectHideFlags: 0
