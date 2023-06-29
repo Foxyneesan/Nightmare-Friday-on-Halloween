@@ -4,16 +4,23 @@
 TagManager:
   serializedVersion: 2
   tags:
-
+  - Coin
+  - Platform
+  - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Dach
+  - 
   - Water
   - UI
-  - Ground
-
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -38,5 +45,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-
+  - name: tlo
+    uniqueID: 3651103713
+    locked: 0
+  - name: 5
+    uniqueID: 2162174473
+    locked: 0
+  - name: 4
+    uniqueID: 1525253531
+    locked: 0
+  - name: 3
+    uniqueID: 2491448513
+    locked: 0
+  - name: 2
+    uniqueID: 2940810091
+    locked: 0
+  - name: 1
+    uniqueID: 659866835
     locked: 0
