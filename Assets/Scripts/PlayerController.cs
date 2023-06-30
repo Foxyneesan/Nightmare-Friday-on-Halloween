@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
+
+	[field:SerializeField]
     private float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
@@ -23,6 +25,8 @@ public class PlayerController : MonoBehaviour
     private int coinsCollected = 0;
 
     private Vector3 respawnPoint;
+
+    public Transform respaPoint;
 
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
@@ -61,7 +65,12 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "NextLevel")
+        if (collision.CompareTag("Enemy"))
+        {
+            transform.position = respawnPoint;
+        }
+
+        else if (collision.tag == "NextLevel")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             respawnPoint = transform.position;
