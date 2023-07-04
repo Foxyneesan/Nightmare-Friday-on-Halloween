@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     public string nextLevelScene;
     public Slider progressBar;
     private int score = 0;
-    private int maxScore = 10;
+    public int maxScore = 10;
     private int coinsCollected = 0;
 
     private Vector3 respawnPoint;
