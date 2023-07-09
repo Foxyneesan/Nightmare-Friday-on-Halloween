@@ -31,10 +31,15 @@ public class PlayerController : MonoBehaviour
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
 
+    public Image[] hearts;
+    public Sprite blackHeartSprite;
+    private int currentLives = 3;
+
     void Start()
     {
         player = GetComponent<Rigidbody2D>();
         respawnPoint = transform.position;
+        UpdateUI();
     }
 
     void Update()
@@ -68,6 +73,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             transform.position = respawnPoint;
+            LoseLife();
         }
 
         else if (collision.tag == "NextLevel")
@@ -91,6 +97,7 @@ public class PlayerController : MonoBehaviour
             currentPlatform = collision.transform.parent;
             transform.SetParent(currentPlatform);
         }
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -102,7 +109,37 @@ public class PlayerController : MonoBehaviour
             transform.SetParent(null);
         }
     }
+    private void LoseLife()
+    {
+        currentLives--;
+        UpdateUI();
 
+        if (currentLives <= 0)
+        {
+            // Kod, który wykonuje siê po utraceniu wszystkich ¿yæ
+            Debug.Log("Game Over!");
+        }
+        else
+        {
+            // Zmiana obrazka serduszka na czarne serduszko
+            hearts[currentLives].sprite = blackHeartSprite;
+        }
+    }
+
+    private void UpdateUI()
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < currentLives)
+            {
+                hearts[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                hearts[i].gameObject.SetActive(false);
+            }
+        }
+    }
     private void CollectCoin(GameObject coin)
     {
         score++;
