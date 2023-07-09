@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
 
     public Image[] hearts;
     public Sprite blackHeartSprite;
+    public Sprite redHeartSprite;
     private int currentLives = 3;
 
     void Start()
@@ -132,14 +133,16 @@ public class PlayerController : MonoBehaviour
         {
             if (i < currentLives)
             {
-                hearts[i].gameObject.SetActive(true);
+                hearts[i].sprite = redHeartSprite;
+;
             }
             else
             {
-                hearts[i].gameObject.SetActive(false);
+                hearts[i].sprite = blackHeartSprite;
             }
         }
     }
+
     private void CollectCoin(GameObject coin)
     {
         score++;
