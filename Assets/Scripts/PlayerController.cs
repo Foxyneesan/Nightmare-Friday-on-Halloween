@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,10 +9,11 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
 
-	[field:SerializeField]
+    [field:SerializeField]
     private float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
+
     private bool isTouchingGround;
 
     public Transform groundCheck;
@@ -98,6 +100,7 @@ public class PlayerController : MonoBehaviour
             currentPlatform = collision.transform.parent;
             transform.SetParent(currentPlatform);
         }
+
 
     }
 
