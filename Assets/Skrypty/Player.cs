@@ -8,10 +8,12 @@ public class Player : MonoBehaviour
     private float speed = 6f;
     public float jumpingPower = 8f;
     private bool isFacingRight = true;
-    public Image[] heartImages;
-
-    public float maxHealth = 3f;
-    public float currentHealth;
+    
+    public Image[] hearts;
+    public Sprite blackHeartSprite;
+    public Sprite redHeartSprite;
+    private int currentLives = 3;
+   
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -22,8 +24,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;
-
+       UpdateUI();
         respawnPoint = transform.position;
     }
 
@@ -52,7 +53,7 @@ public class Player : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0f, groundLayer);
     }
 
     private void Flip()
@@ -74,11 +75,38 @@ public class Player : MonoBehaviour
         {
             transform.position = respawnPoint;
 
-
-            Destroy(heartImages[heartImages.Length - 1]);
-
+	    LoseLife();
         }
 
     }
+private void LoseLife()
+    {
+        currentLives--;
+        UpdateUI();
 
+        if (currentLives <= 0)
+        {
+            // Kod, który wykonuje się po utraceniu wszystkich żyć
+            Debug.Log("Game Over!");
+        }
+        else
+        {
+            // Zmiana obrazka serduszka na czarne serduszko
+            hearts[currentLives].sprite = blackHeartSprite;
+        }
+    }
+private void UpdateUI()
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < currentLives)
+            {
+                hearts[i].sprite = redHeartSprite;
+            }
+            else
+            {
+                hearts[i].sprite = blackHeartSprite;
+            }
+        }
+    }
 }

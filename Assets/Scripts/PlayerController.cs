@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 5f;
 
 	[field:SerializeField]
-    private float jumpingPower = 16f;
+    public float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
     private bool isTouchingGround;
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 respawnPoint;
 
-    public Transform respaPoint;
+   
 
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
