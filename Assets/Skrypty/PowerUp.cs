@@ -29,7 +29,7 @@ void Start()
     {
 
        PlayerController controller = player.GetComponent<PlayerController>();
-        controller.jumpingPower = 16;
+        controller.jumpingPower = 18;
     GetComponent<Renderer>().sortingLayerName = "but";
     // gameObject.SetActive(false);
         yield return new WaitForSeconds(jumpTime);
