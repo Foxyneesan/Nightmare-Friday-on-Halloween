@@ -1,24 +1,31 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     private float horizontal;
     private float speed = 6f;
-    private float jumpingPower = 8f;
+    public float jumpingPower = 8f;
     private bool isFacingRight = true;
+    public Image[] heartImages;
+
+    public float maxHealth = 3f;
+    public float currentHealth;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
-	private Vector3 respawnPoint;
-	
+    private Vector3 respawnPoint;
 
-	void Start()
-	{
-		respawnPoint = transform.position;
-	}
+
+    void Start()
+    {
+        currentHealth = maxHealth;
+
+        respawnPoint = transform.position;
+    }
 
 
     void Update()
@@ -59,11 +66,19 @@ public class Player : MonoBehaviour
         }
     }
 
-	private void OnTriggerEnter2D(Collider2D collision)
-	{
-		if(collision.tag == "Enemy")
-		{
-			transform.position = respawnPoint;	
-		}
-	}
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Enemy")
+        {
+            transform.position = respawnPoint;
+
+
+            Destroy(heartImages[heartImages.Length - 1]);
+
+        }
+
+    }
+
 }
