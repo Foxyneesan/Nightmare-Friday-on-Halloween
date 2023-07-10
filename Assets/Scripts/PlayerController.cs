@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     public string nextLevelScene;
     public Slider progressBar;
     private int score = 0;
-    private int maxScore = 10;
+    public int maxScore = 10;
     private int coinsCollected = 0;
 
     private Vector3 respawnPoint;
@@ -31,10 +31,16 @@ public class PlayerController : MonoBehaviour
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
 
+    public Image[] hearts;
+    public Sprite blackHeartSprite;
+    public Sprite redHeartSprite;
+    private int currentLives = 3;
+
     void Start()
     {
         player = GetComponent<Rigidbody2D>();
         respawnPoint = transform.position;
+        UpdateUI();
     }
 
     void Update()
@@ -68,6 +74,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             transform.position = respawnPoint;
+            LoseLife();
         }
 
         else if (collision.tag == "NextLevel")
@@ -91,6 +98,7 @@ public class PlayerController : MonoBehaviour
             currentPlatform = collision.transform.parent;
             transform.SetParent(currentPlatform);
         }
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -100,6 +108,38 @@ public class PlayerController : MonoBehaviour
             isOnMovingPlatform = false;
             currentPlatform = null;
             transform.SetParent(null);
+        }
+    }
+    private void LoseLife()
+    {
+        currentLives--;
+        UpdateUI();
+
+        if (currentLives <= 0)
+        {
+            // Kod, który wykonuje siê po utraceniu wszystkich ¿yæ
+            Debug.Log("Game Over!");
+        }
+        else
+        {
+            // Zmiana obrazka serduszka na czarne serduszko
+            hearts[currentLives].sprite = blackHeartSprite;
+        }
+    }
+
+    private void UpdateUI()
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < currentLives)
+            {
+                hearts[i].sprite = redHeartSprite;
+;
+            }
+            else
+            {
+                hearts[i].sprite = blackHeartSprite;
+            }
         }
     }
 
