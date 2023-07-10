@@ -134,7 +134,6 @@ public class PlayerController : MonoBehaviour
             if (i < currentLives)
             {
                 hearts[i].sprite = redHeartSprite;
-;
             }
             else
             {
