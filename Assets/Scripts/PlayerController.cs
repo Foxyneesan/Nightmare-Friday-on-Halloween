@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
 
-    [field:SerializeField]
-    private float jumpingPower = 16f;
+	[field:SerializeField]
+    public float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
 
@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
 
 =======
 >>>>>>> 2128b60eaa3daaf62878e0af684195c2f7513f55
+
 
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
