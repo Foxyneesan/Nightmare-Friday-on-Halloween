@@ -7,23 +7,23 @@ public class LadderMovement : MonoBehaviour
     public float climbSpeed = 3f;
 
     private bool isClimbing = false;
+    private GameObject player;
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            player = collision.gameObject;
             float verticalInput = Input.GetAxis("Vertical");
 
             if (verticalInput != 0)
             {
                 isClimbing = true;
-                collision.attachedRigidbody.gravityScale = 0f;
-                collision.attachedRigidbody.velocity = new Vector2(collision.attachedRigidbody.velocity.x, verticalInput * climbSpeed);
+                player.GetComponent<Rigidbody2D>().velocity = new Vector2(player.GetComponent<Rigidbody2D>().velocity.x, verticalInput * climbSpeed);
             }
             else
             {
                 isClimbing = false;
-                collision.attachedRigidbody.gravityScale = 1f;
             }
         }
     }
@@ -33,7 +33,17 @@ public class LadderMovement : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isClimbing = false;
-            collision.attachedRigidbody.gravityScale = 1f;
+            player.GetComponent<Rigidbody2D>().velocity = new Vector2(player.GetComponent<Rigidbody2D>().velocity.x, 0f);
+            player = null;
+        }
+    }
+
+    private void Update()
+    {
+        if (isClimbing && player != null)
+        {
+            float horizontalInput = Input.GetAxis("Horizontal");
+            player.GetComponent<Rigidbody2D>().velocity = new Vector2(horizontalInput * climbSpeed, player.GetComponent<Rigidbody2D>().velocity.y);
         }
     }
 }
