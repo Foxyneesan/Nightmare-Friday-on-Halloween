@@ -27,10 +27,12 @@ public class PlayerController : MonoBehaviour
     private int coinsCollected = 0;
 
     private Vector3 respawnPoint;
-
     public Transform respaPoint;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 21b8a5bab25fa286600e78252acfe179b60280da
 
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
@@ -70,6 +72,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isTouchingGround)
         {
             player.velocity = new Vector2(player.velocity.x, jumpingPower);
+        }
+        // SprawdŸ, czy gracz zebrze³ wymagan¹ iloœæ punktów
+        if (score >= maxScore)
+        {
+            LoadNextLevel();
         }
     }
 
