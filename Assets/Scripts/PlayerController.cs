@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
+
     private bool isTouchingGround;
 
     public Transform groundCheck;
@@ -26,7 +28,8 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 respawnPoint;
 
-   
+    public Transform respaPoint;
+
 
     private bool isOnMovingPlatform = false;
     private Transform currentPlatform = null;
@@ -39,7 +42,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         player = GetComponent<Rigidbody2D>();
-        respawnPoint = transform.position;
+        respawnPoint = respaPoint.position;
         UpdateUI();
     }
 
@@ -80,12 +83,12 @@ public class PlayerController : MonoBehaviour
         else if (collision.tag == "NextLevel")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            respawnPoint = transform.position;
+            respawnPoint = respaPoint.position;
         }
         else if (collision.tag == "PreviousLevel")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            respawnPoint = transform.position;
+            respawnPoint = respaPoint.position;
         }
 
         else if (collision.CompareTag("Coin"))
@@ -98,6 +101,7 @@ public class PlayerController : MonoBehaviour
             currentPlatform = collision.transform.parent;
             transform.SetParent(currentPlatform);
         }
+
 
     }
 
