@@ -29,6 +29,10 @@ public class PlayerController : MonoBehaviour
     private Vector3 respawnPoint;
 
     public Transform respaPoint;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2128b60eaa3daaf62878e0af684195c2f7513f55
 
 
     private bool isOnMovingPlatform = false;
