@@ -61,16 +61,13 @@ public class PlayerController : MonoBehaviour
 
 	if(direction == 0f)
 	{
-		anim.SetBool("isWalking", false);
-		idle.enabled = true;
-		walking.enabled = false;
+		anim.SetBool("IsWalkingJason", false);
 	}
 
 	else
 	{
-		anim.SetBool("isWalking", true);
-		idle.enabled = false;
-		walking.enabled = true;
+		anim.SetBool("IsWalkingJason", true);
+
 	}
 
         if (direction > 0f)
@@ -105,7 +102,10 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 435dc402dd56059ae7e647377734be7cc4875466
             transform.position = respawnPoint;
             LoseLife();
         }
