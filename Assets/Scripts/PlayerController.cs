@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 	
     public float speed = 5f;
 
-	[field:SerializeField]
+    [field:SerializeField]
     public float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
     public Sprite blackHeartSprite;
     public Sprite redHeartSprite;
     private int currentLives = 3;
+
 
     void Start()
     {
@@ -98,7 +99,10 @@ public class PlayerController : MonoBehaviour
             LoadNextLevel();
         }
 
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 75f5ac116247ac69aa21bf63534830d9fe0978fd
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -133,7 +137,6 @@ public class PlayerController : MonoBehaviour
             transform.SetParent(currentPlatform);
         }
 
-
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -144,6 +147,7 @@ public class PlayerController : MonoBehaviour
             currentPlatform = null;
             transform.SetParent(null);
         }
+
     }
     private void LoseLife()
     {
