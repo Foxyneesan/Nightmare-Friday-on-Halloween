@@ -7,13 +7,13 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-	public AudioSource death;
+	
 	public AudioSource walking;
 	public AudioSource idle;
 	
     public float speed = 5f;
 
-    [field:SerializeField]
+	[field:SerializeField]
     public float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
 	anim = GetComponent<Animator>();
         player = GetComponent<Rigidbody2D>();
         respawnPoint = respaPoint.position;
-	death.enabled = false;
+	
         UpdateUI();
     }
 
@@ -89,19 +89,23 @@ public class PlayerController : MonoBehaviour
         {
             player.velocity = new Vector2(player.velocity.x, jumpingPower);
         }
-
         // SprawdŸ, czy gracz zebrze³ wymagan¹ iloœæ punktów
         if (score >= maxScore)
         {
             LoadNextLevel();
         }
 
+	
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
+<<<<<<< HEAD
+		
+=======
+>>>>>>> 435dc402dd56059ae7e647377734be7cc4875466
             transform.position = respawnPoint;
             LoseLife();
         }
@@ -129,6 +133,7 @@ public class PlayerController : MonoBehaviour
             transform.SetParent(currentPlatform);
         }
 
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -139,7 +144,6 @@ public class PlayerController : MonoBehaviour
             currentPlatform = null;
             transform.SetParent(null);
         }
-
     }
     private void LoseLife()
     {
