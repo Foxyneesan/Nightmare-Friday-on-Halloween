@@ -61,13 +61,16 @@ public class PlayerController : MonoBehaviour
 
 	if(direction == 0f)
 	{
-		anim.SetBool("IsWalkingJason", false);
+		anim.SetBool("isWalking", false);
+		idle.enabled = true;
+		walking.enabled = false;
 	}
 
 	else
 	{
-		anim.SetBool("IsWalkingJason", true);
-
+		anim.SetBool("isWalking", true);
+		idle.enabled = false;
+		walking.enabled = true;
 	}
 
         if (direction > 0f)
@@ -102,10 +105,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-<<<<<<< HEAD
 		
-=======
->>>>>>> 435dc402dd56059ae7e647377734be7cc4875466
             transform.position = respawnPoint;
             LoseLife();
         }
@@ -152,8 +152,8 @@ public class PlayerController : MonoBehaviour
 
         if (currentLives <= 0)
         {
-            // Kod, który wykonuje siê po utraceniu wszystkich ¿yæ
-            Debug.Log("Game Over!");
+        SceneManager.LoadScene(3);
+           // Debug.Log("Game Over!");
         }
         else
         {
@@ -186,7 +186,7 @@ public class PlayerController : MonoBehaviour
 
         Destroy(coin);
 
-        if (coinsCollected >= 10)
+        if (coinsCollected >= 20)
         {
             LoadNextLevel();
         }
