@@ -7,13 +7,13 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-	public AudioSource death;
+	// public AudioSource death;
 	public AudioSource walking;
 	public AudioSource idle;
 	
     public float speed = 5f;
 
-    [field:SerializeField]
+	[field:SerializeField]
     public float jumpingPower = 16f;
     private float direction = 0f;
     private Rigidbody2D player;
@@ -44,14 +44,13 @@ public class PlayerController : MonoBehaviour
     public Sprite redHeartSprite;
     private int currentLives = 3;
 
-
     void Start()
     {
-	
+	// death.enabled = true;
 	anim = GetComponent<Animator>();
         player = GetComponent<Rigidbody2D>();
         respawnPoint = respaPoint.position;
-	death.enabled = false;
+	
         UpdateUI();
     }
 
@@ -99,20 +98,19 @@ public class PlayerController : MonoBehaviour
             LoadNextLevel();
         }
 
-<<<<<<< HEAD
 	
-=======
->>>>>>> 75f5ac116247ac69aa21bf63534830d9fe0978fd
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
-		death.enabled = true;
+		// death.enabled = true;
             transform.position = respawnPoint;
-            LoseLife();
+            LoseLife();	
+		
         }
+	
 	
 
         else if (collision.tag == "NextLevel")
@@ -137,17 +135,21 @@ public class PlayerController : MonoBehaviour
             transform.SetParent(currentPlatform);
         }
 
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
+
+	
+	
+
         if (collision.CompareTag("Platform"))
         {
             isOnMovingPlatform = false;
             currentPlatform = null;
             transform.SetParent(null);
         }
-
     }
     private void LoseLife()
     {
