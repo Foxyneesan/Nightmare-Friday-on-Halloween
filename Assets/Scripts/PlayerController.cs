@@ -44,6 +44,8 @@ public class PlayerController : MonoBehaviour
     public Sprite redHeartSprite;
     private int currentLives = 3;
 
+    public int remainingJumpsinWater = 1; // Liczba pozosta³ych skoków
+
     void Start()
     {
 	
@@ -61,12 +63,12 @@ public class PlayerController : MonoBehaviour
 
 	    if(direction == 0f)
 	    {
-		anim.SetBool("IsWalkingJason", false);
+		anim.SetBool("IsWalking", false);
 	    }
 
 	    else
 	    {
-		anim.SetBool("IsWalkingJason", true);
+		anim.SetBool("IsWalking", true);
 
 	    }
 
@@ -102,10 +104,6 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-<<<<<<< HEAD
-		
-=======
->>>>>>> 435dc402dd56059ae7e647377734be7cc4875466
             transform.position = respawnPoint;
             LoseLife();
         }
@@ -131,6 +129,17 @@ public class PlayerController : MonoBehaviour
             isOnMovingPlatform = true;
             currentPlatform = collision.transform.parent;
             transform.SetParent(currentPlatform);
+        }
+        else if (collision.CompareTag("Water"))
+        {
+            if (Input.GetButtonDown("Jump"))
+            {
+                if (isTouchingGround || remainingJumpsinWater > 0) // SprawdŸ, czy gracz jest na ziemi lub ma pozosta³e skoki
+                {
+                    player.velocity = new Vector2(player.velocity.x, jumpingPower);
+                }
+            }
+
         }
 
 
