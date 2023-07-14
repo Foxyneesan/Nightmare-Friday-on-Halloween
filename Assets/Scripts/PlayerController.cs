@@ -59,16 +59,16 @@ public class PlayerController : MonoBehaviour
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
 
-	if(direction == 0f)
-	{
+	    if(direction == 0f)
+	    {
 		anim.SetBool("IsWalkingJason", false);
-	}
+	    }
 
-	else
-	{
+	    else
+	    {
 		anim.SetBool("IsWalkingJason", true);
 
-	}
+	    }
 
         if (direction > 0f)
         {
