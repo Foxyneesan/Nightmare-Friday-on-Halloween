@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
     public Sprite redHeartSprite;
     private int currentLives = 3;
 
-
     void Start()
     {
         player = GetComponent<Rigidbody2D>();
@@ -70,6 +69,7 @@ public class PlayerController : MonoBehaviour
         {
             player.velocity = new Vector2(player.velocity.x, jumpingPower);
         }
+
         // SprawdŸ, czy gracz zebrze³ wymagan¹ iloœæ punktów
         if (score >= maxScore)
         {
