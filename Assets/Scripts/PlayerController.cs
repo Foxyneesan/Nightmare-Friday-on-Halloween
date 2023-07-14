@@ -7,6 +7,10 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+	public AudioSource death;
+	public AudioSource walking;
+	public AudioSource idle;
+	
     public float speed = 5f;
 
     [field:SerializeField]
@@ -15,6 +19,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D player;
 
     private bool isTouchingGround;
+
+	public Animator anim;
 
     public Transform groundCheck;
     public float groundCheckRadius;
@@ -40,8 +46,11 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+	
+	anim = GetComponent<Animator>();
         player = GetComponent<Rigidbody2D>();
         respawnPoint = respaPoint.position;
+	death.enabled = false;
         UpdateUI();
     }
 
@@ -49,6 +58,20 @@ public class PlayerController : MonoBehaviour
     {
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
+
+	if(direction == 0f)
+	{
+		anim.SetBool("isWalking", false);
+		idle.enabled = true;
+		walking.enabled = false;
+	}
+
+	else
+	{
+		anim.SetBool("isWalking", true);
+		idle.enabled = false;
+		walking.enabled = true;
+	}
 
         if (direction > 0f)
         {
@@ -82,9 +105,11 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+		death.enabled = true;
             transform.position = respawnPoint;
             LoseLife();
         }
+	
 
         else if (collision.tag == "NextLevel")
         {
