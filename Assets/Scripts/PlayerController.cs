@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
     public Sprite redHeartSprite;
     private int currentLives = 3;
 
-    public int remainingJumpsinWater = 1; // Liczba pozosta³ych skoków
+	 public int remainingJumpsinWater = 1;
 
     void Start()
     {
@@ -61,7 +61,6 @@ public class PlayerController : MonoBehaviour
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
 
-<<<<<<< HEAD
 	if(direction == 0f)
 	{
 		anim.SetBool("isWalking", false);
@@ -75,18 +74,6 @@ public class PlayerController : MonoBehaviour
 		idle.enabled = false;
 		walking.enabled = true;
 	}
-=======
-	    if(direction == 0f)
-	    {
-		anim.SetBool("IsWalking", false);
-	    }
-
-	    else
-	    {
-		anim.SetBool("IsWalking", true);
-
-	    }
->>>>>>> c7aee9215a5d32b84bfeb647d81741b5d5aae0d1
 
         if (direction > 0f)
         {
@@ -120,10 +107,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-<<<<<<< HEAD
 		
-=======
->>>>>>> c7aee9215a5d32b84bfeb647d81741b5d5aae0d1
             transform.position = respawnPoint;
             LoseLife();
         }
@@ -150,18 +134,18 @@ public class PlayerController : MonoBehaviour
             currentPlatform = collision.transform.parent;
             transform.SetParent(currentPlatform);
         }
-        else if (collision.CompareTag("Water"))
+
+	else if (collision.CompareTag("Water"))
         {
             if (Input.GetButtonDown("Jump"))
             {
-                if (isTouchingGround || remainingJumpsinWater > 0) // SprawdŸ, czy gracz jest na ziemi lub ma pozosta³e skoki
+                if (isTouchingGround || remainingJumpsinWater > 0) // Sprawd , czy gracz jest na ziemi lub ma pozosta e skoki
                 {
                     player.velocity = new Vector2(player.velocity.x, jumpingPower);
                 }
             }
 
         }
-
 
     }
 
@@ -181,8 +165,8 @@ public class PlayerController : MonoBehaviour
 
         if (currentLives <= 0)
         {
-        SceneManager.LoadScene(3);
-           // Debug.Log("Game Over!");
+            SceneManager.LoadScene(3);
+            Debug.Log("Game Over!");
         }
         else
         {
