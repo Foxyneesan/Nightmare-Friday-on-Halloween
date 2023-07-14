@@ -92,13 +92,17 @@ public class PlayerController : MonoBehaviour
         {
             player.velocity = new Vector2(player.velocity.x, jumpingPower);
         }
+
         // SprawdŸ, czy gracz zebrze³ wymagan¹ iloœæ punktów
         if (score >= maxScore)
         {
             LoadNextLevel();
         }
 
+<<<<<<< HEAD
 	
+=======
+>>>>>>> c0904b7906f2d3eef2c5d956284e0640821254db
     }
 
     void OnTriggerEnter2D(Collider2D collision)
