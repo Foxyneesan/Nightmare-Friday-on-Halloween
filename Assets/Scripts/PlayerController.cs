@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-	// public AudioSource death;
+	
 	public AudioSource walking;
 	public AudioSource idle;
 	
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-	// death.enabled = true;
+	
 	anim = GetComponent<Animator>();
         player = GetComponent<Rigidbody2D>();
         respawnPoint = respaPoint.position;
@@ -92,29 +92,23 @@ public class PlayerController : MonoBehaviour
         {
             player.velocity = new Vector2(player.velocity.x, jumpingPower);
         }
-
         // SprawdŸ, czy gracz zebrze³ wymagan¹ iloœæ punktów
         if (score >= maxScore)
         {
             LoadNextLevel();
         }
 
-<<<<<<< HEAD
 	
-=======
->>>>>>> c0904b7906f2d3eef2c5d956284e0640821254db
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
-		// death.enabled = true;
-            transform.position = respawnPoint;
-            LoseLife();	
 		
+            transform.position = respawnPoint;
+            LoseLife();
         }
-	
 	
 
         else if (collision.tag == "NextLevel")
@@ -144,10 +138,6 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-
-	
-	
-
         if (collision.CompareTag("Platform"))
         {
             isOnMovingPlatform = false;
