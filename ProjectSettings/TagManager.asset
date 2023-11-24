@@ -9,6 +9,8 @@ TagManager:
   - Ground
   - Enemy
   - Water
+  - Wall
+  - Portal
   layers:
   - Default
   - TransparentFX

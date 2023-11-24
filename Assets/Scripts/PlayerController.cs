@@ -46,13 +46,28 @@ public class PlayerController : MonoBehaviour
 
 	 public int remainingJumpsinWater = 1;
 
+[SerializeField] ParticleSystem movementParticle;
+[SerializeField] ParticleSystem orbParticle;
+
+public AudioSource grabCoin;
+
+[SerializeField] GameObject doorClose;
+[SerializeField] GameObject doorOpen;
+
+public AudioSource doorOpening;
+public AudioSource chain;
+
+
+
+
+
     void Start()
     {
 	
 	anim = GetComponent<Animator>();
         player = GetComponent<Rigidbody2D>();
         respawnPoint = respaPoint.position;
-	
+	doorOpen.SetActive(false);
         UpdateUI();
     }
 
@@ -60,10 +75,13 @@ public class PlayerController : MonoBehaviour
     {
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
+	
+
 
 	if(direction == 0f)
 	{
 		anim.SetBool("isWalking", false);
+		
 		idle.enabled = true;
 		walking.enabled = false;
 	}
@@ -71,6 +89,7 @@ public class PlayerController : MonoBehaviour
 	else
 	{
 		anim.SetBool("isWalking", true);
+		
 		idle.enabled = false;
 		walking.enabled = true;
 	}
@@ -79,11 +98,18 @@ public class PlayerController : MonoBehaviour
         {
             player.velocity = new Vector2(direction * speed, player.velocity.y);
             transform.localScale = new Vector2(0.65f, 0.65f);
+movementParticle.Play();
+		
+		
+
         }
         else if (direction < 0f)
         {
             player.velocity = new Vector2(direction * speed, player.velocity.y);
             transform.localScale = new Vector2(-0.65f, 0.65f);
+	movementParticle.Play();
+	
+	
         }
         else
         {
@@ -93,8 +119,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isTouchingGround)
         {
             player.velocity = new Vector2(player.velocity.x, jumpingPower);
+		
+		
+		
         }
-        // SprawdŸ, czy gracz zebrze³ wymagan¹ iloœæ punktów
+        // Sprawd , czy gracz zebrze  wymagan  ilo   punkt w
         if (score >= maxScore)
         {
             LoadNextLevel();
@@ -126,8 +155,20 @@ public class PlayerController : MonoBehaviour
 
         else if (collision.CompareTag("Coin"))
         {
+		
             CollectCoin(collision.gameObject);
+		
+	
         }
+
+else if (collision.CompareTag("Portal"))
+        {
+		
+            LoadNextLevel();
+		
+	
+        }
+
         else if (collision.CompareTag("Platform"))
         {
             isOnMovingPlatform = true;
@@ -146,6 +187,7 @@ public class PlayerController : MonoBehaviour
             }
 
         }
+
 
     }
 
@@ -192,16 +234,32 @@ public class PlayerController : MonoBehaviour
 
     private void CollectCoin(GameObject coin)
     {
+	
         score++;
         progressBar.value = (float)score / maxScore;
 
         coinsCollected++;
 
-        Destroy(coin);
+	orbParticle.transform.position = transform.position;
+	{
+		orbParticle.Play();
+		grabCoin.Play();
+	}
+	
+	Destroy(coin);
 
-        if (coinsCollected >= 20)
+	if (coin = null)
+	{
+		grabCoin.enabled = true;
+	}
+	
+        if (coinsCollected >= 5)
         {
-            LoadNextLevel();
+		chain.Play();
+		doorOpening.Play();
+		doorClose.SetActive(false);
+		doorOpen.SetActive(true);
+            
         }
     }
     private void LoadNextLevel()

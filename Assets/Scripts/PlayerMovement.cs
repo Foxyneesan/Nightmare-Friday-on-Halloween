@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 platformOffset;
 
+    
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
